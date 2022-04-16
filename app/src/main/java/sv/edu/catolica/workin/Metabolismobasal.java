@@ -7,18 +7,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import org.w3c.dom.Text;
 
 public class Metabolismobasal extends AppCompatActivity
 {
     ////////////////////////////////////////// VARIABLES ///////////////////////////////////////////
-    EditText edit_altura, edit_peso, edit_edad;
+    int id =0;
+    Usuario u;
+    daoUsuario dao;
+    TextView alturamb, pesomb, edadmb;
     Button btn_calcular, btn_limpar;
     RadioButton radioButton_masculino, radioButton_femenino, radioButton_leve, radioButton_moderado, radioButton_intenso;
     CheckBox checkBox_semana, checkBox_mes;
+
     ////////// VARIAVEIS /////////
     double P, A, I, AF, Resultado, Resultado_semana, Resultado_mes;
     ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -47,21 +53,29 @@ public class Metabolismobasal extends AppCompatActivity
         ////////////////////////////////////////////////////////////////////////////////////////////
 
         ///////////////////////////////////// DECLARAÇÕES //////////////////////////////////////////
-        edit_altura = (EditText) findViewById(R.id.edit_altura);
-        edit_peso = (EditText) findViewById(R.id.edit_peso);
-        edit_edad = (EditText) findViewById(R.id.edit_edad);
+        alturamb = findViewById(R.id.tvAlturaMB);
+        pesomb = findViewById(R.id.tvPesoMB);
+        edadmb = findViewById(R.id.tvEdadMB);
 
+        Bundle bundle = getIntent().getExtras();
+        id = bundle.getInt("id");
+        dao = new daoUsuario(this);
+        u = dao.getUsuarioById(id);
+
+        alturamb.setText(u.getAltura());
+        pesomb.setText(u.getPeso());
+        edadmb.setText(u.getEdad());
         btn_calcular = (Button) findViewById(R.id.btn_calcular);
         btn_limpar = (Button) findViewById(R.id.btn_limpiar);
 
-        radioButton_masculino = (RadioButton) findViewById(R.id.radioButton_masculino);
-        radioButton_femenino = (RadioButton) findViewById(R.id.radioButton_femenino);
-        radioButton_leve = (RadioButton) findViewById(R.id.radioButton_leve);
-        radioButton_moderado = (RadioButton) findViewById(R.id.radioButton_moderado);
-        radioButton_intenso = (RadioButton) findViewById(R.id.radioButton_intenso);
+        radioButton_masculino = findViewById(R.id.radioButton_masculino);
+        radioButton_femenino = findViewById(R.id.radioButton_femenino);
+        radioButton_leve = findViewById(R.id.radioButton_leve);
+        radioButton_moderado =  findViewById(R.id.radioButton_moderado);
+        radioButton_intenso = findViewById(R.id.radioButton_intenso);
 
-        checkBox_semana = (CheckBox) findViewById(R.id.checkBox_semana);
-        checkBox_mes = (CheckBox) findViewById(R.id.checkBox_mes);
+        checkBox_semana = findViewById(R.id.checkBox_semana);
+        checkBox_mes =  findViewById(R.id.checkBox_mes);
         ////////////////////////////////////////////////////////////////////////////////////////////
 
         ///////////////////////////////// FUNÇÃO LIMPAR CAMPOS /////////////////////////////////////
@@ -70,9 +84,6 @@ public class Metabolismobasal extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                edit_altura.setText("");
-                edit_peso.setText("");
-                edit_edad.setText("");
 
                 radioButton_masculino.setChecked(false);
                 radioButton_femenino.setChecked(false);
@@ -95,9 +106,9 @@ public class Metabolismobasal extends AppCompatActivity
             {
                 ////////////////////////// CONDICIONES PARA DATOS EN BLANCO //////////////////////////
                 if(
-                        edit_altura.getText().length() == 0 ||
-                                edit_peso.getText().length() == 0 ||
-                                edit_edad.getText().length() == 0 ||
+                              alturamb.getText().length() == 0 ||
+                                pesomb.getText().length() == 0 ||
+                                edadmb.getText().length() == 0 ||
                                 (radioButton_masculino.isChecked() == false && radioButton_femenino.isChecked() == false) ||
                                 (radioButton_leve.isChecked() == false && radioButton_moderado.isChecked() == false && radioButton_intenso.isChecked() == false))
                 {
@@ -109,9 +120,9 @@ public class Metabolismobasal extends AppCompatActivity
                 ///////////////////////////////// CALCULO //////////////////////////////////////////
                 else
                 {
-                    A = Double.parseDouble(edit_altura.getText().toString());
-                    P = Double.parseDouble(edit_peso.getText().toString());
-                    I = Double.parseDouble(edit_edad.getText().toString());
+                    A = Double.parseDouble(alturamb.getText().toString());
+                    P = Double.parseDouble(pesomb.getText().toString());
+                    I = Double.parseDouble(edadmb.getText().toString());
 
                     //////////////////////////// SELEÇÃO SE MASCULINO //////////////////////////////
                     if(radioButton_masculino.isChecked())

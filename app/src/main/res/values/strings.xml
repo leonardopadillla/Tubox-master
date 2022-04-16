@@ -30,6 +30,9 @@
     <string name="btnGuardar2">Guardar</string>
     <string name="btnGuardar3">Guardar</string>
     <string name="acercade_lbl">AboutUs</string>
+    <string name="AlturaMB_lbl">Ninguna</string>
+    <string name="PesoMB_lbl">Ninguna</string>
+    <string name="EdadMB_lbl">Ninguna</string>
     <string name="menu_usuario">Usuario</string>
     <string name="menu_inicio">Home</string>
     <string name="rutinas_lbl">Rutinas</string>

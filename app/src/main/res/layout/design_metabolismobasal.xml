@@ -41,19 +41,17 @@
                 android:textColor="@color/white"
                 android:textSize="19sp" />
 
-            <EditText
-                android:id="@+id/edit_altura"
+            <TextView
+                android:id="@+id/tvAlturaMB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/sytle_edit"
-                android:hint="@string/ingrese_su_altura"
                 android:fontFamily="@font/poppinsbold"
-                android:importantForAutofill="no"
-                android:inputType="numberDecimal"
-                android:minHeight="48dp"
+                android:padding="10dp"
+                android:text="@string/AlturaMB_lbl"
+                android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textColorHint="@color/boton"
-                tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck,TextContrastCheck" />
+                android:textSize="19sp" />
+
 
             <TextView
                 android:layout_width="match_parent"
@@ -64,18 +62,16 @@
                 android:textColor="@color/white"
                 android:textSize="19sp" />
 
-            <EditText
-                android:id="@+id/edit_peso"
+            <TextView
+                android:id="@+id/tvPesoMB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/sytle_edit"
                 android:fontFamily="@font/poppinsbold"
-                android:hint="@string/ingrese_su_peso"
-                android:importantForAutofill="no"
-                android:inputType="numberDecimal"
+                android:padding="10dp"
+                android:text="@string/PesoMB_lbl"
+                android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textColorHint="@color/boton"
-                tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+                android:textSize="19sp" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -86,18 +82,16 @@
                 android:textColor="@color/white"
                 android:textSize="19sp" />
 
-            <EditText
-                android:id="@+id/edit_edad"
+            <TextView
+                android:id="@+id/tvEdadMB"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/sytle_edit"
                 android:fontFamily="@font/poppinsbold"
-                android:hint="@string/ingrese_su_edad"
-                android:importantForAutofill="no"
-                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:text="@string/EdadMB_lbl"
+                android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textColorHint="@color/boton"
-                tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+                android:textSize="19sp" />
 
         </LinearLayout>
 
