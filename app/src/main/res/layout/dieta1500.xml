@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/bgnegro"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/dieta1500"
+            android:textAlignment="center"
+            android:textColor="@color/boton"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/dieta1500dia1"
+                android:textAlignment="center"
+                android:textColor="@color/boton"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia1desayuno"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia1amediamanana"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia1almuerzo"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia1merienda"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia1cena"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/dieta1500dia2"
+                android:textAlignment="center"
+                android:textColor="@color/boton"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia2desayuno"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia2amediamanana"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia2almuerzo"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia2merienda"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia2cena"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/dieta1500dia3"
+                android:textAlignment="center"
+                android:textColor="@color/boton"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia3desayuno"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia3amediamanana"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia3almuerzo"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia3merienda"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia3cena"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/dieta1500dia4"
+                android:textAlignment="center"
+                android:textColor="@color/boton"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia4desayuno"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia4amediamanana"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia4almuerzo"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia4merienda"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia4cena"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/dieta1500dia5"
+                android:textAlignment="center"
+                android:textColor="@color/boton"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia5desayuno"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia5amediamanana"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia5almuerzo"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia5merienda"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia5cena"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/dieta1500dia6"
+                android:textAlignment="center"
+                android:textColor="@color/boton"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia6desayuno"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1500dia6amediamanana"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1600dia6almuerzo"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1600dia6merienda"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1600dia6cena"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/dieta1600dia7"
+                android:textAlignment="center"
+                android:textColor="@color/boton"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1600dia7desayuno"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1600dia7amediamanana"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1600dia7almuerzo"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1600dia7merienda"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:justificationMode="inter_word"
+                android:text="@string/dieta1600dia7cena"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:ignore="UnusedAttribute">
+
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

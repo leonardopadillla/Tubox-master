@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/bgnegro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/ibtnRutinas"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="25dp"
+            android:contentDescription="@string/workout_description"
+            app:srcCompat="@drawable/rutinas3"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:onClick="irrutinas"/>
+
+        <ImageButton
+            android:id="@+id/ibtnDietas"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="25dp"
+            android:onClick="irdietas"
+            android:contentDescription="@string/dietas_description"
+            app:srcCompat="@drawable/dietahome2"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+            />
+        <ImageButton
+            android:id="@+id/ibtnMB"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="25dp"
+            android:contentDescription="@string/imc_ayuda"
+            android:onClick="irimb"
+            app:srcCompat="@drawable/imcfondo2"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/ibtnIMC"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="25dp"
+            android:contentDescription="@string/imc_ayuda"
+            android:onClick="irimc"
+            app:srcCompat="@drawable/imcfondo"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/ibtnConsejos"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="irconsejos"
+            android:contentDescription="@string/imc_ayuda"
+            app:srcCompat="@drawable/consejos2"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/acercade_lbl"
+        android:icon="@drawable/ic_baseline_info"
+        android:orderInCategory="6"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:orderInCategory="4"
+        android:title="@string/menu_usuario"
+        android:id="@+id/perfil"
+        android:icon="@drawable/ic_baseline"
+        app:showAsAction="always" />
+
+    <item
+        android:orderInCategory="2"
+        android:title="@string/menu_inicio"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/activity_main2.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_aboutus.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_dietas.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_inicio.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_perfil.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_registro.xml" value="0.33797407585213635" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_restablecerpass.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_rutinas.xml" value="0.2" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_todo_cuerpo_intermedio.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/desing_abdominales_principiante.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/desing_consejos.xml" value="0.14603409933283915" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/desing_indicemasacorporal.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/desing_notificacion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/desing_saltotijera.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/desing_toma_de_datos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/desingabdominales_avanzados.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/desingabdominales_intermedio.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/login_user.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_abdominal_cruzado.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_abdominales_elevados.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_abdominalesv.xml" value="0.2287162162162162" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_brazos_avanzado.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_brazos_intermedio.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_brazos_principiante.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_burpees.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_cobra.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_crunch.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_curl_puerta_derecha.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_curl_puerta_izq.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_desplante.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_dezplante_cruzado.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_elevacion_cadera.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_elevacion_de_puntas.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_elevacion_rodilla.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_elevacionlateral.xml" value="0.2287162162162162" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_estiramiento_hombro.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_estiramiento_pecho.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_fire_hydrant.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_flexion_contra_pared.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_flexion_estrella.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_flexion_piernas_elevadas.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_flexiones.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_flexiones_con_rotacion.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_flexiones_divebomber.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_flexiones_spider.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_fondo_tricep.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_levantamientodepiernas.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_movimiento_circular.xml" value="0.2287162162162162" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_patada_de_burro.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_pectoral_intermedio.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_pectoral_principiante.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_piernas_avanzado.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_piernas_intermedio.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_piernas_principiante.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_plancha.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_plancha_con_levantamiento.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_plancha_derecha.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_plancha_izquierda.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_pose_puente.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_punetazos.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_sentadilla.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_sentadilla_con_salto.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_sit_ups.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_todo_cuerpo_principiante.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_wall_sit.xml" value="0.30085470085470084" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutinamountain_climber.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutinas_pectorales_avanzado.xml" value="0.33" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutinas_saltotijera.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/WorkIn/app/src/main/res/menu/menu_principal.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/drawable/design_restablecerpass.xml" value="0.2203125" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/aja.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_aboutus.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_dietas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_home.xml" value="0.18" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_inicio.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_perfil.xml" value="0.25" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_registro.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_restablecerpass.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_rutinas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/design_todo_cuerpo_intermedio.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/desing_consejos.xml" value="0.25" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/desing_indicemasacorporal.xml" value="0.25" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/desing_toma_de_datos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/login_user.xml" value="0.25" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_brazos_avanzado.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_desplante.xml" value="0.22" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_patada_de_burro.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_sit_ups.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/layout/rutina_todo_cuerpo_principiante.xml" value="0.25" />
+        <entry key="..\:/Users/alvar/AndroidStudioProjects/WorkIn/app/src/main/res/menu/menu_principal.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

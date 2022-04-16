@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/bgnegro"
+    android:layout_height="match_parent"
+    tools:context=".IndiceMasaCorporal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:src="@drawable/bannerimcdesign"
+        android:contentDescription="@string/tablaimc">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/boton"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="22sp"
+        android:text="@string/su_indice_de_masa_corporal_es">
+
+    </TextView>
+    <TextView
+        android:id="@+id/tvIndice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+</LinearLayout>

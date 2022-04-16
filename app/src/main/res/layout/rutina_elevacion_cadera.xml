@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bgnegro"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    tools:context=".ElevacionCadera">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/elevacioncadera">
+    </pl.droidsonroids.gif.GifImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:paddingTop="15dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="@string/elevacion_de_cadera"
+        android:textColor="@color/boton">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="@string/infoelevacioncadera"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="18sp">
+    </TextView>
+
+</LinearLayout>

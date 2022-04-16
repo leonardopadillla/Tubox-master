@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sv.edu.catolica.workin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_workinblanco"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WorkIn">
+        <activity
+            android:name=".Desplante"
+            android:exported="false" />
+        <activity
+            android:name=".SitUps"
+            android:exported="false" />
+        <activity
+            android:name=".TodoCuerpoIntermedio"
+            android:exported="false" />
+        <activity
+            android:name=".TodoCuerpoPrincipiante"
+            android:exported="false" />
+        <activity
+            android:name=".CurlPuertaIzq"
+            android:exported="false" />
+        <activity
+            android:name=".CurlPuertaDerecha"
+            android:exported="false" />
+        <activity
+            android:name=".BrazosAvanzado"
+            android:exported="false" />
+        <activity
+            android:name=".BrazosIntermedio"
+            android:exported="false" />
+        <activity
+            android:name=".FondoTricep"
+            android:exported="false" />
+        <activity
+            android:name=".BrazosPrincipiante"
+            android:exported="false" />
+        <activity
+            android:name=".ElevacionDePuntas"
+            android:exported="false" />
+        <activity
+            android:name=".DezplanteCruzado"
+            android:exported="false" />
+        <activity
+            android:name=".WallSit"
+            android:exported="false" />
+        <activity
+            android:name=".PlanchaConLevantamiento"
+            android:exported="false" />
+        <activity
+            android:name=".ElevacionRodilla"
+            android:exported="false" />
+        <activity
+            android:name=".FireHydrant"
+            android:exported="false" />
+        <activity
+            android:name=".PatadaDeBurro"
+            android:exported="false" />
+        <activity
+            android:name=".SentadillaConSalto"
+            android:exported="false" />
+        <activity
+            android:name=".Sentadilla"
+            android:exported="false" />
+        <activity
+            android:name=".PiernasAvanzado"
+            android:exported="false" />
+        <activity
+            android:name=".PiernasIntermedio"
+            android:exported="false" />
+        <activity
+            android:name=".PiernasPrincipiante"
+            android:exported="false" />
+        <activity
+            android:name=".Cobra"
+            android:exported="false" />
+        <activity
+            android:name=".EstiramientoHombro"
+            android:exported="false" />
+        <activity
+            android:name=".Perfil"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".FlexionesSpider"
+            android:exported="false" />
+        <activity
+            android:name=".Burpees"
+            android:exported="false" />
+        <activity
+            android:name=".Punetazos"
+            android:exported="false" />
+        <activity
+            android:name=".MovimientoCircular"
+            android:exported="false" />
+        <activity
+            android:name=".FlexionesDivebomber"
+            android:exported="false" />
+        <activity
+            android:name=".FlexionesConRotacion"
+            android:exported="false" />
+        <activity
+            android:name=".EstiramientoPecho"
+            android:exported="false" />
+        <activity
+            android:name=".FlexionPiernasElevadas"
+            android:exported="false" />
+        <activity
+            android:name=".FlexionEstrella"
+            android:exported="false" />
+        <activity
+            android:name=".Flexiones"
+            android:exported="false" />
+        <activity
+            android:name=".FlexionContraPared"
+            android:exported="false" />
+        <activity
+            android:name=".PectoralesAvanzado"
+            android:exported="false" />
+        <activity
+            android:name=".PectoralIntermedio"
+            android:exported="false" />
+        <activity
+            android:name=".PectoralPrincipiante"
+            android:exported="false" />
+        <activity
+            android:name=".PosePuente"
+            android:exported="false" />
+        <activity
+            android:name=".PlanchaDerecha"
+            android:exported="false" />
+        <activity
+            android:name=".PlanchaIzquierda"
+            android:exported="false" />
+        <activity
+            android:name=".ElevacionCadera"
+            android:exported="false" />
+        <activity
+            android:name=".AbdominalesV"
+            android:exported="false" />
+        <activity
+            android:name=".ElevacionLateral"
+            android:exported="false" />
+        <activity
+            android:name=".AbdominalCruzado"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".RestablecerContrasena"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".RestablecerAltura"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".RestablecerPeso"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".RestablecerEdad"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Resgistrarse"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".HomeRutinas"
+            android:exported="false" />
+        <activity
+            android:name=".LevantamientoDePiernas"
+            android:exported="false" />
+        <activity
+            android:name=".Plancha"
+            android:exported="false" />
+        <activity
+            android:name=".AbdominalesElevados"
+            android:exported="false" />
+        <activity
+            android:name=".MountainClimber"
+            android:exported="false" />
+        <activity
+            android:name=".Crunch"
+            android:exported="false" />
+        <activity
+            android:name=".SaltoTijera"
+            android:exported="false" />
+        <activity
+            android:name=".AbdominalesAvanzados"
+            android:exported="false" />
+        <activity
+            android:name=".AbdominalesIntermedio"
+            android:exported="false" />
+        <activity
+            android:name=".AbdominalesPrincipiante"
+            android:exported="false" />
+        <activity
+            android:name=".Rutinas"
+            android:exported="false" />
+        <activity
+            android:name=".Consejos"
+            android:exported="false" />
+        <activity
+            android:name=".IndiceMasaCorporal"
+            android:exported="false" />
+        <activity
+            android:name=".Metabolismobasal"
+            android:exported="false" />
+        <activity
+            android:name=".Dieta1500"
+            android:exported="false" />
+        <activity
+            android:name=".Dieta1600"
+            android:exported="false" />
+        <activity
+            android:name=".Dieta1700"
+            android:exported="false" />
+        <activity
+            android:name=".Dieta1800"
+            android:exported="false" />
+        <activity
+            android:name=".Dieta1900"
+            android:exported="false" />
+        <activity
+            android:name=".Dieta2000"
+            android:exported="false" />
+        <activity
+            android:name=".Dieta2100"
+            android:exported="false" />
+        <activity
+            android:name=".Dieta2200"
+            android:exported="false" />
+        <activity
+            android:name=".Dieta2300"
+            android:exported="false" />
+        <activity
+            android:name=".Dieta2400"
+            android:exported="false" />
+        <activity
+            android:name=".Dieta2500"
+            android:exported="false" />
+        <activity
+            android:name=".Dietas"
+            android:exported="false" />
+        <activity
+            android:name=".Inicio"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

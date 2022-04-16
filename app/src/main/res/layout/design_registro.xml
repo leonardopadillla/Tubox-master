@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@drawable/bgnegro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_registrar"
+            android:textColor="@color/boton"
+            android:textSize="28sp"
+            android:fontFamily="@font/poppinsbold"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tvUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/usuario_lbl"
+                android:textSize="19sp"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@color/white"
+                android:layout_marginTop="45dp"
+                />
+
+            <EditText
+                android:id="@+id/etUserNuevo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:fontFamily="@font/poppinsbold"
+                android:hint="@string/ayudaUser"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/boton"
+                android:background="@drawable/sytle_edit"
+                tools:ignore="DuplicateSpeakableTextCheck"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ayuda_color"
+                android:textSize="19sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppinsbold"
+                />
+
+            <EditText
+                android:id="@+id/etColorUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:hint="@string/ayuda_respuesta"
+                android:inputType="text"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@color/white"
+                android:minHeight="48dp"
+                android:textColorHint="@color/boton"
+                android:background="@drawable/sytle_edit"
+                tools:ignore="DuplicateSpeakableTextCheck"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/tvPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/pass_lbl"
+                android:textSize="19sp"
+                android:textColor="@color/white"
+                />
+
+            <EditText
+                android:id="@+id/etPasswordNuevo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:textColor="@color/white"
+                android:hint="@string/ayudaPass"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:fontFamily="@font/poppinsbold"
+                android:ems="10"
+                android:background="@drawable/sytle_edit"
+                tools:ignore="DuplicateSpeakableTextCheck"
+                android:textColorHint="@color/boton"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ayudaConfirmarPass"
+                android:textSize="19sp"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@color/white"
+                />
+
+            <EditText
+                android:id="@+id/etPasswordComprobacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:hint="@string/ayudaConfirmarPass"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:fontFamily="@font/poppinsbold"
+                android:ems="10"
+                android:textColor="@color/white"
+                android:textColorHint="@color/boton"
+                android:background="@drawable/sytle_edit"
+                tools:ignore="DuplicateSpeakableTextCheck"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/altura"
+                android:textSize="19sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppinsbold"
+                android:padding="10dp">
+            </TextView>
+
+            <EditText
+                android:id="@+id/etaltura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sytle_edit"
+                android:hint="@string/ayudaConfirmarPass"
+                android:importantForAutofill="no"
+                android:minHeight="48dp"
+                android:fontFamily="@font/poppinsbold"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                android:textColorHint="@color/boton"
+                tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck,TextContrastCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/peso"
+                android:textSize="19sp"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@color/white"
+                android:padding="10dp">
+            </TextView>
+
+            <EditText
+                android:id="@+id/etPeso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sytle_edit"
+                android:hint="@string/ayudaConfirmarPass"
+                android:importantForAutofill="no"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppinsbold"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/boton"
+                tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/edad"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppinsbold"
+                android:padding="10dp"
+                android:textSize="19sp">
+            </TextView>
+
+            <EditText
+                android:id="@+id/etEdad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sytle_edit"
+                android:hint="@string/ingrese_su_peso"
+                android:importantForAutofill="no"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@color/white"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/boton"
+                tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnEnviar"
+            style="?attr/materialButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/boton"
+            android:onClick="Enviar"
+            android:text="@string/btnEnviar"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:cornerRadius="10dp"
+            app:strokeColor="@color/boton"
+            tools:ignore="TextContrastCheck"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

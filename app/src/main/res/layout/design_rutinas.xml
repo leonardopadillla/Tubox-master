@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/bgnegro"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".Rutinas"
+    >
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wod1_lbl"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/boton"
+            android:fontFamily="@font/poppinsbold"
+            android:gravity="center"
+            />
+
+        <ImageButton
+            android:id="@+id/ibtnAbdominalesPrincipiante"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/workout_description"
+            android:onClick="AbPrincipiante"
+            android:src="@drawable/principiante"
+            tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+        <ImageButton
+            android:id="@+id/ibtnAbdominalesIntermedio"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/workout_description"
+            android:onClick="AbIntermedio"
+            android:src="@drawable/intermedio"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/ibtnAbdominalesAvanzado"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/workout_description"
+            android:onClick="AbAvanzado"
+            android:src="@drawable/abdavan"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wod2_lbl"
+            android:textSize="24sp"
+            android:textColor="@color/boton"
+            android:fontFamily="@font/poppinsbold"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <ImageButton
+            android:id="@+id/ibtnPectoralesPrincipiante"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="PecPrincipiante"
+            android:contentDescription="@string/workout_description"
+            android:src="@drawable/pechop"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/ibtnPectoralesIntermedio"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="PecIntermedio"
+            android:contentDescription="@string/workout_description"
+            android:src="@drawable/pechoi"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/ibtnPectoralesAvanzado"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:onClick="PecAvanzado"
+            android:contentDescription="@string/workout_description"
+            android:src="@drawable/avanzado"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wod3_lbl"
+            android:textSize="24sp"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/boton"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <ImageButton
+            android:id="@+id/ibtnPiernasPrincipiante"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:onClick="PiernasPrinc"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/workout_description"
+            android:src="@drawable/piernasprincipiante"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/ibtnPiernasIntermedio"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/workout_description"
+            android:onClick="PiernasInter"
+            android:src="@drawable/piernasintermedio"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/ibtnPiernasAvanzado"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/workout_description"
+            android:onClick="PiernasAvan"
+            android:src="@drawable/piernasavanz"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wod4_lbl"
+            android:textSize="24sp"
+            android:textColor="@color/boton"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppinsbold"
+            android:gravity="center"
+            />
+
+        <ImageButton
+            android:id="@+id/ibtnEspaldaPrincipiante"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/workout_description"
+            android:onClick="BrazosPrin"
+            android:src="@drawable/principiante"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/ibtnEspaldaIntermedio"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/workout_description"
+            android:onClick="BrazosInter"
+            android:src="@drawable/intermedio"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/ibtnEspaldaAvanzado"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/workout_description"
+            android:onClick="BrazosAvan"
+            android:src="@drawable/avanzado"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wod5_lbl"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="24sp"
+            android:textColor="@color/boton"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <ImageButton
+            android:id="@+id/ibtnBrazosPrincipiante"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/workout_description"
+            android:onClick="cueroPrincipiante"
+            android:src="@drawable/principiante"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/ibtnBrazosIntermedio"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/workout_description"
+            android:onClick="cuerpoIntermedio"
+            android:src="@drawable/intermedio"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

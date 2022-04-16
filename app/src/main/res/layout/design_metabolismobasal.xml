@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@drawable/bgnegro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppinsbold"
+            android:gravity="center"
+            android:text="@string/tasa_de_metabolismo_basal"
+            android:textColor="@color/boton"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:padding="10dp"
+                android:text="@string/altura_textview"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/edit_altura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sytle_edit"
+                android:hint="@string/ingrese_su_altura"
+                android:fontFamily="@font/poppinsbold"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/boton"
+                tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck,TextContrastCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:padding="10dp"
+                android:text="@string/peso_textview"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/edit_peso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sytle_edit"
+                android:fontFamily="@font/poppinsbold"
+                android:hint="@string/ingrese_su_peso"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                android:textColorHint="@color/boton"
+                tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:padding="10dp"
+                android:text="@string/edad_textview"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/edit_edad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sytle_edit"
+                android:fontFamily="@font/poppinsbold"
+                android:hint="@string/ingrese_su_edad"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/boton"
+                tools:ignore="DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:padding="10dp"
+            android:text="@string/sexo_textview"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton_masculino"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/text_masculino"
+                android:textColor="@color/white"
+                android:textColorHint="@color/boton"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton_femenino"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/text_femenino"
+                android:textColor="@color/white"
+                android:textColorHint="@color/boton"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:padding="10dp"
+            android:text="@string/actividad_textview"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton_leve"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/text_leve"
+                android:textColor="@color/white"
+                android:textColorHint="@color/boton"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton_moderado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/text_moderado"
+                android:textColor="@color/white"
+                android:textColorHint="@color/boton"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton_intenso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/text_intenso"
+                android:textColor="@color/white"
+                android:textColorHint="@color/boton"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:padding="10dp"
+            android:text="@string/resultadosagrupados_textview"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox_semana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/text_resultadoparalasemana"
+            android:textColor="@color/white"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_mes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/text_resultadoparaelmes"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_limpiar"
+                style="?attr/materialButtonStyle"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/boton"
+                android:text="@string/btn_limpiar"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                app:strokeColor="@color/boton"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/btn_calcular"
+                style="?attr/materialButtonStyle"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/boton"
+                android:text="@string/btn_calcular"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                app:strokeColor="@color/boton"
+                tools:ignore="TextContrastCheck" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

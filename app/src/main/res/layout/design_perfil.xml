@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bgnegro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/perfil_lbl"
+            android:textColor="@color/boton"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/datos_personales_lbl"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_person"
+                    android:paddingTop="5dp"
+                    android:contentDescription="@android:string/unknownName"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppinsbold"
+                    android:paddingStart="30dp"
+                    android:text="@string/nombree"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/tvNombreUsuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nombre_lbl"
+                    android:paddingStart="10dp"
+                    android:textAlignment="textEnd"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    tools:ignore="RtlSymmetry" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_person"
+                    android:paddingTop="5dp"
+                    android:contentDescription="@android:string/unknownName"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alturaa"
+                    android:paddingStart="30dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/tvEstatura"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textAlignment="textEnd"
+                    android:text="@string/ejemplo_estatura"
+                    android:textSize="22sp"
+                    android:textColor="@color/white" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_person"
+                    android:paddingTop="5dp"
+                    android:contentDescription="@android:string/unknownName"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppinsbold"
+                    android:paddingStart="30dp"
+                    android:text="@string/pesoss"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/tvPeso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ejemplo_peso"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textAlignment="textEnd"
+                    android:textSize="22sp"
+                    android:textColor="@color/white" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_person"
+                    android:paddingTop="5dp"
+                    android:contentDescription="@android:string/unknownName"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppinsbold"
+                    android:paddingStart="30dp"
+                    android:text="@string/edad_puntos"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/tvEdad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/ejemplo_sexo"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/horario_para_entrenar"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="24sp"
+            android:textColor="@color/white">
+        </TextView>
+
+        <Button
+            android:id="@+id/btnhorario"
+            style="?attr/materialButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/poppinsbold"
+            android:backgroundTint="@color/boton"
+            android:text="@string/seleccione_la_hora"
+            android:textColor="@color/white"
+            app:cornerRadius="10dp"
+            app:strokeColor="@color/boton"
+            tools:ignore="TextContrastCheck"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hora_seleccionada"
+            android:text="@string/hora_seleccionada"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="22sp"
+            android:id="@+id/tvhora"
+            android:textColor="@color/white">
+        </TextView>
+
+        <Button
+            android:id="@+id/btseleccionedia"
+            style="?attr/materialButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/boton"
+            android:text="@string/seleccione_el_dia"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:cornerRadius="10dp"
+            app:strokeColor="@color/boton"
+            tools:ignore="TextContrastCheck"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dias_seleccionados"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppinsbold"
+            android:id="@+id/tvdias"
+            android:textSize="22sp"
+            android:textColor="@color/white">
+        </TextView>
+
+        <Button
+            android:id="@+id/btnguardaralarma"
+            style="?attr/materialButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/boton"
+            android:text="@string/guardar_alarma"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:cornerRadius="10dp"
+            app:strokeColor="@color/boton"
+            tools:ignore="TextContrastCheck"
+            android:layout_marginBottom="30dp"/>
+        <Button
+            android:id="@+id/restablecer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/restablecer_lbl"/>
+        <Button
+            android:id="@+id/restablecer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/restablecer1_lbl"/>
+        <Button
+            android:id="@+id/restablecer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/restablecer2_lbl"/>
+        <Button
+            android:id="@+id/restablecer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/restablecer3_lbl"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/historial_de_progreso"
+            android:layout_margin="20dp"
+            android:textColor="@color/boton"
+            android:textSize="24sp"
+            android:fontFamily="@font/poppinsbold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/n_mero_de_rutinas_de_abdomen_completadas"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="16sp"
+            android:id="@+id/tvprogressAb"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/n_mero_de_rutinas_de_pectorales_completadas"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="16sp"
+            android:id="@+id/tvprogressPecho"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/n_mero_de_rutinas_de_piernas_completadas"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="16sp"
+            android:id="@+id/tvprogressPierna"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/n_mero_de_rutinas_de_brazo_completadas"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="16sp"
+            android:id="@+id/tvprogressbrazo"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/n_mero_de_rutinas_de_todo_el_cuerpo_completadas"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="16sp"
+            android:id="@+id/tvprogressTodoCuerpo"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp">
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>

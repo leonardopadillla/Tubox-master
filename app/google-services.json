@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "667850228876",
+    "project_id": "workin-8c2b7",
+    "storage_bucket": "workin-8c2b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667850228876:android:4fe08291ec87696f0267a9",
+        "android_client_info": {
+          "package_name": "sv.edu.catolica.workin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667850228876-b103a1c5mpasrrns7tmeu10qtumh86sj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sv.edu.catolica.workin",
+            "certificate_hash": "8fb6e1fc3b7dec49936b4b1d361332acbabbaf15"
+          }
+        },
+        {
+          "client_id": "667850228876-72kfbvl33q7r1i6ogbuta6ti352p8udc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClnU-LKHz4TQWXMIYLiIJnefoSLj0w1qg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667850228876-72kfbvl33q7r1i6ogbuta6ti352p8udc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

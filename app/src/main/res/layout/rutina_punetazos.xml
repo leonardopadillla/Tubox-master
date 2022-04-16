@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bgnegro"
+    android:padding="15dp"
+    android:layout_height="match_parent"
+    tools:context=".Punetazos">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/punos">
+    </pl.droidsonroids.gif.GifImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsbold"
+        android:paddingTop="15dp"
+        android:text="@string/squatsnatches135_95"
+        android:textAlignment="center"
+        android:textColor="@color/boton"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsbold"
+        android:paddingTop="15dp"
+        android:text="@string/squatsnatchesinfo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"></TextView>
+
+</LinearLayout>

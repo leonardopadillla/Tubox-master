@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fondologin">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/usuario_lbl"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            />
+
+        <EditText
+            android:id="@+id/etUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/sytle_edit"
+            android:fontFamily="@font/poppinsbold"
+            android:ems="10"
+            android:hint="@string/ayudaPass"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:minHeight="48dp"
+            android:textColorHint="@color/boton"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/tvPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pass_lbl"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="19sp"
+            />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/ayudaPass"
+            android:background="@drawable/sytle_edit"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/white"
+            android:ems="10"
+            android:textColorHint="@color/boton"
+            android:importantForAutofill="no"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/btnIngresar"
+            style="?attr/materialButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/boton"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/btn_ingresar"
+            android:textColor="@color/white"
+            app:cornerRadius="10dp"
+            android:textStyle="bold"
+            app:strokeColor="@color/boton"
+            tools:ignore="TextContrastCheck"/>
+
+        <Button
+            android:id="@+id/btnRegistrarse"
+            style="?attr/materialButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/boton"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/btn_registrar"
+            android:textColor="@color/white"
+            app:cornerRadius="10dp"
+            app:strokeColor="@color/boton"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+</LinearLayout>

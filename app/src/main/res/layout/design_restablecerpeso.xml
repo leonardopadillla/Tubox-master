@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@drawable/bgnegro">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="@string/restablecer2_lbl"
+        android:textColor="@color/boton"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/ayuda_nuevoPeso"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="19sp"></TextView>
+
+        <EditText
+            android:id="@+id/etPesoNuevo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="no"
+            android:background="@drawable/sytle_edit"
+            android:enabled="true"
+            android:fontFamily="@font/poppinsbold"
+            android:hint="@string/ayuda_nuevoPeso"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/boton"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/ayuda_nuevoPesonuevamente"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="19sp"></TextView>
+
+        <EditText
+        android:id="@+id/etPesoComprobacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="no"
+        android:hint="@string/ayudaConfirmarPass"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:fontFamily="@font/poppinsbold"
+        android:ems="10"
+        android:enabled="true"
+        android:textColor="@color/white"
+        android:background="@drawable/sytle_edit"
+        tools:ignore="DuplicateSpeakableTextCheck"
+        android:textColorHint="@color/boton" />
+
+        <Button
+            android:id="@+id/btnGuardar4"
+            style="?attr/materialButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:enabled="true"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/boton"
+            android:text="@string/btnGuardar1"
+            android:textColor="@color/white"
+            app:cornerRadius="10dp"
+            app:strokeColor="@color/boton"
+            android:fontFamily="@font/poppinsbold"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+</LinearLayout>
