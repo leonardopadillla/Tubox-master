@@ -50,6 +50,7 @@ public class Resgistrarse extends AppCompatActivity implements View.OnClickListe
                 u.setAltura(alt.getText().toString());
                 u.setPeso(pes.getText().toString());
                 u.setEdad(edd.getText().toString());
+                u.setResultado("");
                 u.setRutinaAbdomen(0);
                 u.setRutinaBrazo(0);
                 u.setRutinaPecho(0);

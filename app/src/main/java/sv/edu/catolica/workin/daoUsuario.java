@@ -14,7 +14,7 @@ public class daoUsuario {
     ArrayList<Usuario> lista;
     SQLiteDatabase sql;
     String bd="BDUsuarios";
-    String tabla="create table if not exists usuariosdb(id integer primary key autoincrement, nombre text, colorfav text, pass text, altura text, peso text, edad text, " +
+    String tabla="create table if not exists usuariosdb(id integer primary key autoincrement, nombre text, colorfav text, pass text, altura text, peso text, edad text, resultado text, " +
             "rutinaPecho integer, rutinaAbdomen integer, rutinaPiernas integer, rutinaBrazo integer, rutinaTodoCuerpo integer)";
 
     public daoUsuario(Context c) {
@@ -33,6 +33,7 @@ public class daoUsuario {
             cv.put("altura", u.getAltura());
             cv.put("peso", u.getPeso());
             cv.put("edad", u.getEdad());
+            cv.put("resultado", u.getResultado());
             cv.put("rutinaPecho", u.getRutinaPecho());
             cv.put("rutinaAbdomen", u.getRutinaAbdomen());
             cv.put("rutinaPiernas", u.getRutinaPiernas());
@@ -69,11 +70,12 @@ public class daoUsuario {
                 u.setAltura(cr.getString(4));
                 u.setPeso(cr.getString(5));
                 u.setEdad(cr.getString(6));
-                u.setRutinaPecho(cr.getInt(7));
-                u.setRutinaAbdomen(cr.getInt(8));
-                u.setRutinaPiernas(cr.getInt(9));
-                u.setRutinaBrazo(cr.getInt(10));
-                u.setRutinaTodoCuerpo(cr.getInt(11));
+                u.setResultado(cr.getString(7));
+                u.setRutinaPecho(cr.getInt(8));
+                u.setRutinaAbdomen(cr.getInt(9));
+                u.setRutinaPiernas(cr.getInt(10));
+                u.setRutinaBrazo(cr.getInt(11));
+                u.setRutinaTodoCuerpo(cr.getInt(12));
 
                 lista.add(u);
             }while (cr.moveToNext());
@@ -122,6 +124,7 @@ public class daoUsuario {
          cv.put("altura", u.getAltura());
          cv.put("peso", u.getPeso());
          cv.put("edad", u.getEdad());
+         cv.put("resultado", u.getResultado());
          cv.put("rutinaPecho", u.getRutinaPecho());
          cv.put("rutinaAbdomen", u.getRutinaAbdomen());
          cv.put("rutinaPiernas", u.getRutinaPiernas());

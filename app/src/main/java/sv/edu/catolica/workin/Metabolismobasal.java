@@ -2,6 +2,7 @@ package sv.edu.catolica.workin;
 
 import android.annotation.TargetApi;
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -24,7 +26,7 @@ public class Metabolismobasal extends AppCompatActivity
     Button btn_calcular, btn_limpar;
     RadioButton radioButton_masculino, radioButton_femenino, radioButton_leve, radioButton_moderado, radioButton_intenso;
     CheckBox checkBox_semana, checkBox_mes;
-
+    String resultadofinal;
     ////////// VARIAVEIS /////////
     double P, A, I, AF, Resultado, Resultado_semana, Resultado_mes;
     ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -102,7 +104,7 @@ public class Metabolismobasal extends AppCompatActivity
         {
             @TargetApi(Build.VERSION_CODES.N)
             @Override
-            public void onClick(View view)
+            public void onClick(View v)
             {
                 ////////////////////////// CONDICIONES PARA DATOS EN BLANCO //////////////////////////
                 if(
@@ -231,13 +233,16 @@ public class Metabolismobasal extends AppCompatActivity
                             Resultado = 65.5 + (9.6 * P) + (1.8 * A) - (4.7 * I);
                             Resultado = Resultado * AF;
                             alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias");
-                            return;
+
                         }
                     }
                     ////////////////////////////////////////////////////////////////////////////////
                 }
                 ////////////////////////////////////////////////////////////////////////////////////
+
+
             }
+
         });
         ////////////////////////////////////////////////////////////////////////////////////////////
     }

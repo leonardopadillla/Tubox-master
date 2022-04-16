@@ -2,12 +2,12 @@ package sv.edu.catolica.workin;
 
 public class Usuario {
     int id, RutinaPecho, RutinaAbdomen, RutinaPiernas,RutinaBrazo, RutinaTodoCuerpo;
-    String Nombre, ColorFav, Password, Altura, Peso, Edad;
+    String Nombre, ColorFav, Password, Altura, Peso, Edad, Resultado;
 
     public Usuario() {
     }
 
-    public Usuario(int rutinaPecho, int rutinaAbdomen, int rutinaPiernas, int rutinaBrazo, int rutinaTodoCuerpo, String nombre, String colorFav, String password, String altura, String peso, String edad) {
+    public Usuario(int rutinaPecho, int rutinaAbdomen, int rutinaPiernas, int rutinaBrazo, int rutinaTodoCuerpo, String nombre, String colorFav, String password, String altura, String peso, String edad, String resultado) {
         RutinaPecho = rutinaPecho;
         RutinaAbdomen = rutinaAbdomen;
         RutinaPiernas = rutinaPiernas;
@@ -19,10 +19,11 @@ public class Usuario {
         Altura = altura;
         Peso = peso;
         Edad = edad;
+        Resultado = resultado;
     }
 
     public boolean isNull(){
-        if(Nombre.equals("")&& ColorFav.equals("") &&Password.equals("") &&Altura.equals("")&&Peso.equals("")&&Edad.equals("")){
+        if(Nombre.equals("")&& ColorFav.equals("") &&Password.equals("") &&Altura.equals("")&&Peso.equals("")&&Edad.equals("")&&Resultado.equals("")){
             return false;
         }else{
             return true;
@@ -44,6 +45,7 @@ public class Usuario {
                 ", Altura='" + Altura + '\'' +
                 ", Peso='" + Peso + '\'' +
                 ", Edad='" + Edad + '\'' +
+                ", Resultado='" + Resultado + '\'' +
                 '}';
     }
 
@@ -109,6 +111,15 @@ public class Usuario {
 
     public void setEdad(String edad) {
         Edad = edad;
+    }
+
+
+    public String getResultado() {
+        return Resultado;
+    }
+
+    public void setResultado(String resultado) {
+        Resultado = resultado;
     }
 
     public int getId() {
