@@ -33,7 +33,7 @@ public class Metabolismobasal extends AppCompatActivity
     double P, A, I, AF, Resultado, Resultado_semana, Resultado_mes;
     ////////////////////////////////////////////////////////////////////////////////////////////////
 
-    //////////////////////////////// FUNÇÃO DE AVISOS EM TELA //////////////////////////////////
+    //////////////////////////////// //////////////////////////////////
     public void alerta(String titulo, String mensagem)
     {
         AlertDialog.Builder alerta = new AlertDialog.Builder(Metabolismobasal.this);
@@ -109,6 +109,7 @@ public class Metabolismobasal extends AppCompatActivity
             public void onClick(View v)
             {
                 ////////////////////////// CONDICIONES PARA DATOS EN BLANCO //////////////////////////
+
                 if(
                               alturamb.getText().length() == 0 ||
                                 pesomb.getText().length() == 0 ||
@@ -155,7 +156,11 @@ public class Metabolismobasal extends AppCompatActivity
                                 resultadofinal = String.valueOf(Resultado);
                                 u.setResultado(resultadofinal);
                                 dao.updateUsuario(u);
-                                alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_semana+ " kcal semanal\nSu TMB es de " +Resultado_mes+ " kcal mensual");
+                                //alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_semana+ " kcal semanal\nSu TMB es de " +Resultado_mes+ " kcal mensual");
+                                Toast toast1 =
+                                        Toast.makeText(getApplicationContext(),
+                                                "Se actualizo su dieta exitosamente", Toast.LENGTH_SHORT);
+                                toast1.show();
                                 Intent in = new Intent(Metabolismobasal.this, Login.class);
                                 in.putExtra("id",u.getId());
                                 startActivity(in);
@@ -171,7 +176,11 @@ public class Metabolismobasal extends AppCompatActivity
                                 resultadofinal = String.valueOf(Resultado);
                                 u.setResultado(resultadofinal);
                                 dao.updateUsuario(u);
-                                alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_semana+ " kcal semanal");
+                                //alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_semana+ " kcal semanal");
+                                Toast toast1 =
+                                        Toast.makeText(getApplicationContext(),
+                                                "Se actualizo su dieta exitosamente", Toast.LENGTH_SHORT);
+                                toast1.show();
                                 Intent in = new Intent(Metabolismobasal.this, Login.class);
                                 in.putExtra("id",u.getId());
                                 startActivity(in);
@@ -187,7 +196,11 @@ public class Metabolismobasal extends AppCompatActivity
                                 resultadofinal = String.valueOf(Resultado);
                                 u.setResultado(resultadofinal);
                                 dao.updateUsuario(u);
-                                alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_mes+ " kcal mensual");
+                                //alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_mes+ " kcal mensual");
+                                Toast toast1 =
+                                        Toast.makeText(getApplicationContext(),
+                                                "Se actualizo su dieta exitosamente", Toast.LENGTH_SHORT);
+                                toast1.show();
                                 Intent in = new Intent(Metabolismobasal.this, Login.class);
                                 in.putExtra("id",u.getId());
                                 startActivity(in);
@@ -202,7 +215,11 @@ public class Metabolismobasal extends AppCompatActivity
                             resultadofinal = String.valueOf(Resultado);
                             u.setResultado(resultadofinal);
                             dao.updateUsuario(u);
-                            alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias");
+                            //alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias");
+                            Toast toast1 =
+                                    Toast.makeText(getApplicationContext(),
+                                            "Se actualizo su dieta exitosamente", Toast.LENGTH_SHORT);
+                            toast1.show();
                             Intent in = new Intent(Metabolismobasal.this, Login.class);
                             in.putExtra("id",u.getId());
                             startActivity(in);
@@ -239,7 +256,15 @@ public class Metabolismobasal extends AppCompatActivity
                                 resultadofinal = String.valueOf(Resultado);
                                 u.setResultado(resultadofinal);
                                 dao.updateUsuario(u);
-                                alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_semana+ " kcal semanal\nSu TMB es de " +Resultado_mes+ " kcal mensal");
+                                //alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_semana+ " kcal semanal\nSu TMB es de " +Resultado_mes+ " kcal mensal");
+                                Toast toast1 =
+                                        Toast.makeText(getApplicationContext(),
+                                                "Se actualizo su dieta exitosamente", Toast.LENGTH_SHORT);
+                                toast1.show();
+                                Intent in = new Intent(Metabolismobasal.this, Login.class);
+                                in.putExtra("id",u.getId());
+                                startActivity(in);
+                                finish();
                                 return;
                             }
 
@@ -251,7 +276,15 @@ public class Metabolismobasal extends AppCompatActivity
                                 resultadofinal = String.valueOf(Resultado);
                                 u.setResultado(resultadofinal);
                                 dao.updateUsuario(u);
-                                alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_semana+ " kcal semanal");
+                                //alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_semana+ " kcal semanal");
+                                Toast toast1 =
+                                        Toast.makeText(getApplicationContext(),
+                                                "Se actualizo su dieta exitosamente", Toast.LENGTH_SHORT);
+                                toast1.show();
+                                Intent in = new Intent(Metabolismobasal.this, Login.class);
+                                in.putExtra("id",u.getId());
+                                startActivity(in);
+                                finish();
                                 return;
                             }
 
@@ -263,7 +296,15 @@ public class Metabolismobasal extends AppCompatActivity
                                 resultadofinal = String.valueOf(Resultado);
                                 u.setResultado(resultadofinal);
                                 dao.updateUsuario(u);
-                                alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_mes+ " kcal mensual");
+                                //alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_mes+ " kcal mensual");
+                                Toast toast1 =
+                                        Toast.makeText(getApplicationContext(),
+                                                "Se actualizo su dieta exitosamente", Toast.LENGTH_SHORT);
+                                toast1.show();
+                                Intent in = new Intent(Metabolismobasal.this, Login.class);
+                                in.putExtra("id",u.getId());
+                                startActivity(in);
+                                finish();
                                 return;
                             }
                         }
@@ -274,7 +315,15 @@ public class Metabolismobasal extends AppCompatActivity
                             resultadofinal = String.valueOf(Resultado);
                             u.setResultado(resultadofinal);
                             dao.updateUsuario(u);
-                            alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias");;
+                            //alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias");;
+                            Toast toast1 =
+                                    Toast.makeText(getApplicationContext(),
+                                            "Se actualizo su dieta exitosamente", Toast.LENGTH_SHORT);
+                            toast1.show();
+                            Intent in = new Intent(Metabolismobasal.this, Login.class);
+                            in.putExtra("id",u.getId());
+                            startActivity(in);
+                            finish();
                             return;
                         }
                     }
