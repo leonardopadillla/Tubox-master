@@ -18,6 +18,7 @@
     <string name="restablecer1_lbl">Cambiar Altura</string>
     <string name="restablecer2_lbl">Cambiar Peso</string>
     <string name="restablecer3_lbl">Cambiar Edad</string>
+    <string name="restablecer4_lbl">Eliminar Dieta</string>
     <string name="ayuda_nuevoPassword">Ingrese su nueva contraseña</string>
     <string name="ayuda_nuevaAltura">Ingrese su nueva altura</string>
     <string name="ayuda_nuevaEdad">Ingrese su nueva Edad</string>
@@ -75,7 +76,7 @@
     <string name="text_leve">Leve</string>
     <string name="sexo">Sexo</string>
     <string name="Edad">Edad</string>
-    <string name="Resultado_lbl">Calorias:</string>
+    <string name="Resultado_lbl">Calorias diarias necesarias:</string>
     <string name="Calorias_lbl">Ninguna</string>
     <string name="masculino">Masculino</string>
     <string name="femenino">Femenino</string>
@@ -236,11 +237,11 @@
     <string name="seleccione_el_dia">Seleccione el dia</string>
     <string name="dias_seleccionados">Dias seleccionados</string>
     <string name="historial_de_progreso">Historial de progreso</string>
-    <string name="n_mero_de_rutinas_de_abdomen_completadas">Número de rutinas de abdomen completadas:</string>
-    <string name="n_mero_de_rutinas_de_pectorales_completadas">Número de rutinas de pectorales completadas:</string>
-    <string name="n_mero_de_rutinas_de_piernas_completadas">Número de rutinas de piernas completadas:</string>
-    <string name="n_mero_de_rutinas_de_brazo_completadas">Número de rutinas de brazo completadas:</string>
-    <string name="n_mero_de_rutinas_de_todo_el_cuerpo_completadas">Número de rutinas de todo el cuerpo completadas:</string>
+    <string name="n_mero_de_rutinas_de_abdomen_completadas">Número de rutinas wod 1 completadas satisfactoriamente:</string>
+    <string name="n_mero_de_rutinas_de_pectorales_completadas">Número de rutinas wod 2 completadas satisfactoriamente:</string>
+    <string name="n_mero_de_rutinas_de_piernas_completadas">Número de rutinas wod 3 completadas satisfactoriamente:</string>
+    <string name="n_mero_de_rutinas_de_brazo_completadas">Número de rutinas wod 4 completadas satisfactoriamente:</string>
+    <string name="n_mero_de_rutinas_de_todo_el_cuerpo_completadas">Número de rutinas wod 5 completadas satisfactoriamente:</string>
     <string name="desplantes">Desplantes</string>
     <string name="infodespp">Para trabajar bien tus glúteos, durante los desplantes pon el peso en el talón del pie que está adelante para trabajar los músculos. Recuerda que para que los glúteos ardan, debes ir bien abajo al realizar el desplante. Cuando el ángulo de la rodilla se aproxime a los 90 grados, los glúteos se comenzarán a contraer y serán utilizados en el ejercicio. Si no bajas lo suficiente, el ejercicio se concentrará en los cuádriceps o muslos y no obtendrás los beneficios de trabajar tus glúteos.</string>
     <string name="calcular_dieta">Calcular dieta \n (Metabolismo basal)</string>
@@ -248,6 +249,7 @@
     <string name="restableceraltura_lbl">¿Desea cambiar su altura?</string>
     <string name="restablecerpeso_lbl">¿Desea cambiar su peso?</string>
     <string name="restableceredad_lbl">¿Desea cambiar su edad?</string>
+    <string name="eliminardieta_lbl">¿Desea eliminar su dieta?</string>
     <string name="tasa_de_metabolismo_basal">Tasa de metabolismo basal</string>
     <string name="seleccione_su_nivel">Seleccione su nivel</string>
     <string name="resultados_agrupados">Resultados agrupados</string>

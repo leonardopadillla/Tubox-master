@@ -22,7 +22,7 @@ import java.util.UUID;
 
 public class Perfil extends AppCompatActivity implements View.OnClickListener {
     TextView nombre, estatura, peso, edad, calorias, progressAb, progressP, progressPecho, progressBrazo, progressTC;
-    Button ress, ress1, ress2, ress3;
+    Button ress, ress1, ress2, ress3,ress4;
     ProgressBar pb;
     int id = 0;
     Usuario u;
@@ -33,6 +33,7 @@ public class Perfil extends AppCompatActivity implements View.OnClickListener {
 
     Calendar actual = Calendar.getInstance();
     Calendar calendar = Calendar.getInstance();
+    String eliminarresultado;
 
     private int minutos, hora, dia;
 
@@ -57,6 +58,7 @@ public class Perfil extends AppCompatActivity implements View.OnClickListener {
         ress1 = findViewById(R.id.restablecer1);
         ress2 = findViewById(R.id.restablecer2);
         ress3 = findViewById(R.id.restablecer3);
+        ress4 = findViewById(R.id.restablecer4);
 
 
         Bundle bundle = getIntent().getExtras();
@@ -186,6 +188,22 @@ public class Perfil extends AppCompatActivity implements View.OnClickListener {
                         finish();
                         break;
                 }
+            }
+        });
+        ress4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                eliminarresultado="0";
+                u.setResultado(eliminarresultado);
+                dao.updateUsuario(u);
+                Toast toast1 =
+                        Toast.makeText(getApplicationContext(),
+                                "Se Elimino su dieta exitosamente", Toast.LENGTH_SHORT);
+                toast1.show();
+                Intent in = new Intent(Perfil.this, Login.class);
+                in.putExtra("id",u.getId());
+                startActivity(in);
+                finish();
             }
         });
 
