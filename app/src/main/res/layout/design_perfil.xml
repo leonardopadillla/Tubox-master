@@ -284,24 +284,60 @@
             app:strokeColor="@color/boton"
             tools:ignore="TextContrastCheck"
             android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/restablecerpass_lbl"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"></TextView>
         <Button
             android:id="@+id/restablecer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:text="@string/restablecer_lbl"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/restableceraltura_lbl"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"></TextView>
         <Button
             android:id="@+id/restablecer1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:text="@string/restablecer1_lbl"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/restablecerpeso_lbl"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"></TextView>
         <Button
             android:id="@+id/restablecer2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:text="@string/restablecer2_lbl"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/restableceredad_lbl"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"></TextView>
         <Button
             android:id="@+id/restablecer3"
             android:layout_width="wrap_content"

@@ -243,6 +243,11 @@
     <string name="n_mero_de_rutinas_de_todo_el_cuerpo_completadas">Número de rutinas de todo el cuerpo completadas:</string>
     <string name="desplantes">Desplantes</string>
     <string name="infodespp">Para trabajar bien tus glúteos, durante los desplantes pon el peso en el talón del pie que está adelante para trabajar los músculos. Recuerda que para que los glúteos ardan, debes ir bien abajo al realizar el desplante. Cuando el ángulo de la rodilla se aproxime a los 90 grados, los glúteos se comenzarán a contraer y serán utilizados en el ejercicio. Si no bajas lo suficiente, el ejercicio se concentrará en los cuádriceps o muslos y no obtendrás los beneficios de trabajar tus glúteos.</string>
+    <string name="calcular_dieta">Calcular dieta \n (Metabolismo basal)</string>
+    <string name="restablecerpass_lbl">¿Desea restablecer su contraseña?</string>
+    <string name="restableceraltura_lbl">¿Desea cambiar su altura?</string>
+    <string name="restablecerpeso_lbl">¿Desea cambiar su peso?</string>
+    <string name="restableceredad_lbl">¿Desea cambiar su edad?</string>
     <string name="tasa_de_metabolismo_basal">Tasa de metabolismo basal</string>
     <string name="seleccione_su_nivel">Seleccione su nivel</string>
     <string name="resultados_agrupados">Resultados agrupados</string>
