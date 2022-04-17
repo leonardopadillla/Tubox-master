@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WorkIn</string>
+    <string name="app_name">Tubox Cross</string>
     <string name="ayudaUser">Ingrese su usuario</string>
     <string name="usuario_lbl">Nombre de Usuario</string>
     <string name="logo_app">Logo</string>
@@ -243,6 +243,8 @@
     <string name="n_mero_de_rutinas_de_brazo_completadas">Número de rutinas wod 4 completadas satisfactoriamente:</string>
     <string name="n_mero_de_rutinas_de_todo_el_cuerpo_completadas">Número de rutinas wod 5 completadas satisfactoriamente:</string>
     <string name="desplantes">Desplantes</string>
+    <string name="nodieta_lbl">De momento no tienes una dieta asignada</string>
+    <string name="nodieta_txt">Para obtener tu dieta, dirígete a la seccion calculadora de dieta. Debes saber que nunca se recomendaran dietas inferiores a 1.000 Kcal o superiores a 3.000 Kcal en la aplicacion, puesto que debemos asegurar una energía esencial para mantener nuestras funciones vitales, lo que se conoce como metabolismo basal, que incluye el mantenimiento de la temperatura corporal, la respiración, el latido y la actividad cerebral.</string>
     <string name="infodespp">Para trabajar bien tus glúteos, durante los desplantes pon el peso en el talón del pie que está adelante para trabajar los músculos. Recuerda que para que los glúteos ardan, debes ir bien abajo al realizar el desplante. Cuando el ángulo de la rodilla se aproxime a los 90 grados, los glúteos se comenzarán a contraer y serán utilizados en el ejercicio. Si no bajas lo suficiente, el ejercicio se concentrará en los cuádriceps o muslos y no obtendrás los beneficios de trabajar tus glúteos.</string>
     <string name="calcular_dieta">Calcular dieta \n (Metabolismo basal)</string>
     <string name="restablecerpass_lbl">¿Desea restablecer su contraseña?</string>

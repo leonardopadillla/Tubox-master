@@ -72,11 +72,11 @@ public class Perfil extends AppCompatActivity implements View.OnClickListener {
         edad.setText(u.getEdad());
         calorias.setText(u.getResultado());
 
-        progressAb.setText("Número de rutinas de abdomen completadas: " + u.getRutinaAbdomen());
-        progressP.setText("Número de rutinas de pectorales completadas: " + u.getRutinaPecho());
-        progressPecho.setText("Número de rutinas de piernas     completadas: " + u.getRutinaPiernas());
-        progressBrazo.setText("Número de rutinas de brazo         completadas: " + u.getRutinaBrazo());
-        progressTC.setText("Número de rutinas de todo el cuerpo completadas: " + u.getRutinaTodoCuerpo());
+        progressAb.setText("Número de rutinas Wod 1 completadas satisfactoriamente: " + u.getRutinaAbdomen());
+        progressP.setText("Número de rutinas Wod 2 completadas satisfactoriamente: " + u.getRutinaPecho());
+        progressPecho.setText("Número de rutinas Wod 3 completadas satisfactoriamente: " + u.getRutinaPiernas());
+        progressBrazo.setText("Número de rutinas Wod 4 completadas satisfactoriamente: " + u.getRutinaBrazo());
+        progressTC.setText("Número de rutinas Wod 5 completadas satisfactoriamente: " + u.getRutinaTodoCuerpo());
 
         selechora = findViewById(R.id.btnhorario);
         guardar = findViewById(R.id.btnguardaralarma);
@@ -198,7 +198,7 @@ public class Perfil extends AppCompatActivity implements View.OnClickListener {
                 dao.updateUsuario(u);
                 Toast toast1 =
                         Toast.makeText(getApplicationContext(),
-                                "Se Elimino su dieta exitosamente", Toast.LENGTH_SHORT);
+                                "Se elimino su dieta exitosamente", Toast.LENGTH_SHORT);
                 toast1.show();
                 Intent in = new Intent(Perfil.this, Login.class);
                 in.putExtra("id",u.getId());
