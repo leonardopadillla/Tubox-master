@@ -13,6 +13,8 @@ public class HomeRutinas extends AppCompatActivity{
     int id =0;
     Usuario u;
     daoUsuario dao;
+    String ResultadoD;
+    Double ResultadoDieta;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +25,8 @@ public class HomeRutinas extends AppCompatActivity{
         id=bundle.getInt("id");
         dao=new daoUsuario(this);
         u=dao.getUsuarioById(id);
+        ResultadoD = u.getResultado();
+        ResultadoDieta = Double.parseDouble(ResultadoD);
 
     }
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -60,8 +64,14 @@ public class HomeRutinas extends AppCompatActivity{
 
     public void irdietas(View view)
     {
-        Intent dietas= new Intent(HomeRutinas.this,Dietas.class);
-        startActivity(dietas);
+        if (ResultadoDieta < 1400) {
+            Intent dieta1500= new Intent(HomeRutinas.this,Dieta1500.class);
+            startActivity(dieta1500);
+        } else {
+            Intent dietas= new Intent(HomeRutinas.this,Dietas.class);
+            startActivity(dietas);
+        }
+
     }
 
     public void irimc(View view)
