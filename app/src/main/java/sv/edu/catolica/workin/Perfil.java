@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.UUID;
 
 public class Perfil extends AppCompatActivity implements View.OnClickListener {
-    TextView nombre, estatura, peso, edad, progressAb, progressP, progressPecho, progressBrazo, progressTC;
+    TextView nombre, estatura, peso, edad, calorias, progressAb, progressP, progressPecho, progressBrazo, progressTC;
     Button ress, ress1, ress2, ress3;
     ProgressBar pb;
     int id = 0;
@@ -46,6 +46,7 @@ public class Perfil extends AppCompatActivity implements View.OnClickListener {
         peso = findViewById(R.id.tvPeso);
         estatura = findViewById(R.id.tvEstatura);
         edad = findViewById(R.id.tvEdad);
+        calorias = findViewById(R.id.tvResultado);
         progressAb = findViewById(R.id.tvprogressAb);
         progressP = findViewById(R.id.tvprogressPecho);
         progressPecho = findViewById(R.id.tvprogressPierna);
@@ -67,6 +68,7 @@ public class Perfil extends AppCompatActivity implements View.OnClickListener {
         estatura.setText(u.getAltura());
         peso.setText(u.getPeso());
         edad.setText(u.getEdad());
+        calorias.setText(u.getResultado());
 
         progressAb.setText("Número de rutinas de abdomen completadas: " + u.getRutinaAbdomen());
         progressP.setText("Número de rutinas de pectorales completadas: " + u.getRutinaPecho());

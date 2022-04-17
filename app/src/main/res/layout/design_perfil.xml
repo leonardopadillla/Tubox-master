@@ -172,6 +172,38 @@
                     android:textColor="@color/white"
                     android:textSize="22sp" />
             </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_person"
+                    android:paddingTop="5dp"
+                    android:contentDescription="@android:string/unknownName"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppinsbold"
+                    android:paddingStart="30dp"
+                    android:text="@string/Resultado_lbl"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    tools:ignore="RtlSymmetry" />
+
+                <TextView
+                    android:id="@+id/tvResultado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/Calorias_lbl"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+            </FrameLayout>
 
         </LinearLayout>
 

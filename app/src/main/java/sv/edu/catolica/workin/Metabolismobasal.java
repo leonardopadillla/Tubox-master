@@ -150,6 +150,9 @@ public class Metabolismobasal extends AppCompatActivity
                                 Resultado = Resultado * AF;
                                 Resultado_semana = Resultado * 7;
                                 Resultado_mes = Resultado * 30;
+                                resultadofinal = String.valueOf(Resultado);
+                                u.setResultado(resultadofinal);
+                                dao.updateUsuario(u);
                                 alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_semana+ " kcal semanal\nSu TMB es de " +Resultado_mes+ " kcal mensual");
                                 return;
                             }
@@ -159,6 +162,9 @@ public class Metabolismobasal extends AppCompatActivity
                                 Resultado = 66.5 + (14 * P) + (5 * A) - (6.7 * I);
                                 Resultado = Resultado * AF;
                                 Resultado_semana = Resultado * 7;
+                                resultadofinal = String.valueOf(Resultado);
+                                u.setResultado(resultadofinal);
+                                dao.updateUsuario(u);
                                 alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_semana+ " kcal semanal");
                                 return;
                             }
@@ -168,6 +174,9 @@ public class Metabolismobasal extends AppCompatActivity
                                 Resultado = 66.5 + (14 * P) + (5 * A) - (6.7 * I);
                                 Resultado = Resultado * AF;
                                 Resultado_mes = Resultado * 30;
+                                resultadofinal = String.valueOf(Resultado);
+                                u.setResultado(resultadofinal);
+                                dao.updateUsuario(u);
                                 alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_mes+ " kcal mensual");
                                 return;
                             }
@@ -176,6 +185,9 @@ public class Metabolismobasal extends AppCompatActivity
                         {
                             Resultado = 66.5 + (14 * P) + (5 * A) - (6.7 * I);
                             Resultado = Resultado * AF;
+                            resultadofinal = String.valueOf(Resultado);
+                            u.setResultado(resultadofinal);
+                            dao.updateUsuario(u);
                             alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias");
                             return;
                         }
@@ -206,6 +218,9 @@ public class Metabolismobasal extends AppCompatActivity
                                 Resultado = Resultado * AF;
                                 Resultado_semana = Resultado * 7;
                                 Resultado_mes = Resultado * 30;
+                                resultadofinal = String.valueOf(Resultado);
+                                u.setResultado(resultadofinal);
+                                dao.updateUsuario(u);
                                 alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_semana+ " kcal semanal\nSu TMB es de " +Resultado_mes+ " kcal mensal");
                                 return;
                             }
@@ -215,6 +230,9 @@ public class Metabolismobasal extends AppCompatActivity
                                 Resultado = 65.5 + (9.6 * P) + (1.8 * A) - (4.7 * I);
                                 Resultado = Resultado * AF;
                                 Resultado_semana = Resultado * 7;
+                                resultadofinal = String.valueOf(Resultado);
+                                u.setResultado(resultadofinal);
+                                dao.updateUsuario(u);
                                 alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_semana+ " kcal semanal");
                                 return;
                             }
@@ -224,6 +242,9 @@ public class Metabolismobasal extends AppCompatActivity
                                 Resultado = 65.5 + (9.6 * P) + (1.8 * A) - (4.7 * I);
                                 Resultado = Resultado * AF;
                                 Resultado_mes = Resultado * 30;
+                                resultadofinal = String.valueOf(Resultado);
+                                u.setResultado(resultadofinal);
+                                dao.updateUsuario(u);
                                 alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_mes+ " kcal mensual");
                                 return;
                             }
@@ -232,13 +253,19 @@ public class Metabolismobasal extends AppCompatActivity
                         {
                             Resultado = 65.5 + (9.6 * P) + (1.8 * A) - (4.7 * I);
                             Resultado = Resultado * AF;
-                            alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias");
-
+                            resultadofinal = String.valueOf(Resultado);
+                            u.setResultado(resultadofinal);
+                            dao.updateUsuario(u);
+                            alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias");;
+                            return;
                         }
                     }
                     ////////////////////////////////////////////////////////////////////////////////
                 }
                 ////////////////////////////////////////////////////////////////////////////////////
+                resultadofinal = String.valueOf(Resultado);
+                u.setResultado(resultadofinal);
+                dao.updateUsuario(u);
 
 
             }
