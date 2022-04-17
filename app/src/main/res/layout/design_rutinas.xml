@@ -51,7 +51,7 @@
             android:layout_marginBottom="15dp"
             android:contentDescription="@string/workout_description"
             android:onClick="AbAvanzado"
-            android:src="@drawable/abdavan"
+            android:src="@drawable/avanzado"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView

@@ -52,16 +52,11 @@ public class AbdominalesAvanzados extends AppCompatActivity {
         startActivity(infoabelevados);
     }
 
-    public void infocrunch(View view)
-    {
-        Intent infocrunch= new Intent(AbdominalesAvanzados.this,Crunch.class);
-        startActivity(infocrunch);
-    }
 
-    public void infoplancha(View view)
+    public void infolevantamiento(View view)
     {
-        Intent infoplancha= new Intent(AbdominalesAvanzados.this,Plancha.class);
-        startActivity(infoplancha);
+        Intent infolevantamiento= new Intent(AbdominalesAvanzados.this,LevantamientoDePiernas.class);
+        startActivity(infolevantamiento);
     }
 
     public void infoelevacionlateral(View view)
@@ -70,30 +65,17 @@ public class AbdominalesAvanzados extends AppCompatActivity {
         startActivity(infoelevacionlat);
     }
 
+
     public void infoelevacioncadera(View view)
     {
         Intent infoelevacioncadera= new Intent(AbdominalesAvanzados.this,ElevacionCadera.class);
         startActivity(infoelevacioncadera);
     }
-
-    public void infoplanchaiz(View view)
+    public void infoabcruzados(View view)
     {
-        Intent infoplanchaiz= new Intent(AbdominalesAvanzados.this,PlanchaIzquierda.class);
-        startActivity(infoplanchaiz);
+        Intent infoabcruzados= new Intent(AbdominalesAvanzados.this,AbdominalCruzado.class);
+        startActivity(infoabcruzados);
     }
-
-    public void infoplancade(View view)
-    {
-        Intent infoplanchade= new Intent(AbdominalesAvanzados.this,PlanchaDerecha.class);
-        startActivity(infoplanchade);
-    }
-
-    public void infoposepuente(View view)
-    {
-        Intent infoposepuente= new Intent(AbdominalesAvanzados.this,PosePuente.class);
-        startActivity(infoposepuente);
-    }
-
     public void finentrenamientoavan(View view)
     {
         contador=u.getRutinaAbdomen();

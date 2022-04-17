@@ -19,25 +19,23 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textAlignment="center"
+        android:fontFamily="@font/poppinsbold"
         android:paddingTop="15dp"
-        android:text="@string/abdominales_en_v"
+        android:text="@string/kippingpullups"
+        android:textAlignment="center"
         android:textColor="@color/boton"
-        android:fontFamily="@font/poppinsbold">
-    </TextView>
+        android:textSize="20sp"></TextView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="15dp"
-        android:text="@string/infoabenv"
-        android:textColor="@color/white"
-        android:justificationMode="inter_word"
-        android:textAlignment="center"
-        android:textSize="18sp"
         android:fontFamily="@font/poppinsbold"
-        tools:ignore="UnusedAttribute">
-    </TextView>
+        android:justificationMode="inter_word"
+        android:paddingTop="15dp"
+        android:text="@string/kippingpullupsinfo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="UnusedAttribute"></TextView>
 
 </LinearLayout>

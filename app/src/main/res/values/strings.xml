@@ -751,6 +751,7 @@
     <string name="btn_dietas">Dieta</string>
     <string name="btn_metabolismobasal">Metabolismo Basal</string>
     <string name="wod1_lbl">Wod 1</string>
+    <string name="wod1_lbl_avanzado">Wod 1 de alta intensidad</string>
     <string name="wod2_lbl">Wod 2</string>
     <string name="wod3_lbl">Wod 3</string>
     <string name="wod4_lbl">Wod 4</string>
@@ -758,6 +759,7 @@
     <string name="wod1_lbl_principiante">Wod 1 de baja intensidad</string>
     <string name="run">Run</string>
     <string name="run_800">Distancia: \n 800m</string>
+    <string name="run_1000">Distancia: \n 1000m</string>
     <string name="runinfo">-En los primeros 200 metros puedes buscar una posición cómoda de arranque, a partir del 200 hacer un pequeño cambio de ritmo, intentar correr lo mejor posible y sufrir todo lo que puedas hasta llegar a la meta.</string>
     <string name="kneeasistedpushups">Knee Assisted Push-Up</string>
     <string name="kneeasistedpushupsinfo">-La mejor manera de hacer Knee Pushups es descruzar las piernas y tener los dedos de los pies en el suelo. Esta posición hace que contraigas las lumbares y los glúteos, ayudándote a progresar a un Pushup completo de forma más rápida y efectiva.</string>
@@ -771,6 +773,8 @@
     <string name="wod1_lbl_intermedio">Wod 1 intermedio</string>
     <string name="butterflypullups">Butterfly Pull Ups</string>
     <string name="butterflypullupsinfo"> Lo primero es colocarse delante de la barra con las manos en posición de pronación y con una separación superior al ancho de los hombros. A continuación, y con los brazos totalmente estirados, aplicamos un impulso con la cadera y las piernas y dejamos fluir el movimiento con nuestro propio peso corporal. Tendremos que subir la barbilla por encima de la barra y bajar desplazando el peso del cuerpo hacia delante.</string>
+    <string name="kippingpullups">Kipping Pull Ups</string>
+    <string name="kippingpullupsinfo">El movimiento se inicia con un arqueo exagerado del cuerpo hacia delante (extensión de columna y cadera con una flexión máxima de hombros) para posteriormente realizar una flexión explosiva de caderas y tronco junto con la extensión y aducción de hombros y realizar la tracción; facilitada esta por el impulso previo de piernas y tronco.</string>
     <string name="pushups">Push Ups</string>
     <string name="pushupsinfo">Primero, colócate en la posición de plancha inicial. Mantén las piernas juntas, empieza a bajar hacia el suelo, concentrándose en mantener la posición de tu cuerpo erguido. Si contraes los glúteos y los abdominales, esto te ayudará a mantener una posición corporal rígida en todo momento. Baja el cuerpo a la misma vez y no por partes.</string>
     <string name="wod2_lbl_intermedio">Wod 2 intermedio</string>
