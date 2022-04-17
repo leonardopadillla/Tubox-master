@@ -84,6 +84,30 @@ public class HomeRutinas extends AppCompatActivity{
             Intent dieta1900= new Intent(HomeRutinas.this,Dieta1900.class);
             startActivity(dieta1900);
         }
+        else if (ResultadoDieta > 2000 &&  ResultadoDieta< 2099) {
+            Intent dieta2000= new Intent(HomeRutinas.this,Dieta2000.class);
+            startActivity(dieta2000);
+        }
+        else if (ResultadoDieta > 2100 &&  ResultadoDieta< 2199) {
+            Intent dieta2100= new Intent(HomeRutinas.this,Dieta2100.class);
+            startActivity(dieta2100);
+        }
+        else if (ResultadoDieta > 2200 &&  ResultadoDieta< 2299) {
+            Intent dieta2200= new Intent(HomeRutinas.this,Dieta2200.class);
+            startActivity(dieta2200);
+        }
+        else if (ResultadoDieta > 2300 &&  ResultadoDieta< 2399) {
+            Intent dieta2300= new Intent(HomeRutinas.this,Dieta2300.class);
+            startActivity(dieta2300);
+        }
+        else if (ResultadoDieta > 2400 &&  ResultadoDieta< 2499) {
+            Intent dieta2400= new Intent(HomeRutinas.this,Dieta2400.class);
+            startActivity(dieta2400);
+        }
+        else if (ResultadoDieta > 2500) {
+            Intent dieta2500= new Intent(HomeRutinas.this,Dieta2500.class);
+            startActivity(dieta2500);
+        }
         else {
             Intent dietas= new Intent(HomeRutinas.this,Dietas.class);
             startActivity(dietas);
