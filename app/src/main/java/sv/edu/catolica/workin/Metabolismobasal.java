@@ -11,6 +11,8 @@ import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.content.Intent;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -154,6 +156,10 @@ public class Metabolismobasal extends AppCompatActivity
                                 u.setResultado(resultadofinal);
                                 dao.updateUsuario(u);
                                 alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_semana+ " kcal semanal\nSu TMB es de " +Resultado_mes+ " kcal mensual");
+                                Intent in = new Intent(Metabolismobasal.this, Login.class);
+                                in.putExtra("id",u.getId());
+                                startActivity(in);
+                                finish();
                                 return;
                             }
 
@@ -166,6 +172,10 @@ public class Metabolismobasal extends AppCompatActivity
                                 u.setResultado(resultadofinal);
                                 dao.updateUsuario(u);
                                 alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_semana+ " kcal semanal");
+                                Intent in = new Intent(Metabolismobasal.this, Login.class);
+                                in.putExtra("id",u.getId());
+                                startActivity(in);
+                                finish();
                                 return;
                             }
 
@@ -178,6 +188,10 @@ public class Metabolismobasal extends AppCompatActivity
                                 u.setResultado(resultadofinal);
                                 dao.updateUsuario(u);
                                 alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias\nSu TMB es de " +Resultado_mes+ " kcal mensual");
+                                Intent in = new Intent(Metabolismobasal.this, Login.class);
+                                in.putExtra("id",u.getId());
+                                startActivity(in);
+                                finish();
                                 return;
                             }
                         }
@@ -189,6 +203,10 @@ public class Metabolismobasal extends AppCompatActivity
                             u.setResultado(resultadofinal);
                             dao.updateUsuario(u);
                             alerta("Tasa Metabólica Basal", "Su TMB es de " +Resultado+ " kcal diárias");
+                            Intent in = new Intent(Metabolismobasal.this, Login.class);
+                            in.putExtra("id",u.getId());
+                            startActivity(in);
+                            finish();
                             return;
                         }
                     }

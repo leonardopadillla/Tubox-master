@@ -9,6 +9,6 @@ public class Dieta1900 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.dieta1500);
+        setContentView(R.layout.dieta1900);
     }
 }

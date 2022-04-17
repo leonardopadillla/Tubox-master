@@ -64,10 +64,27 @@ public class HomeRutinas extends AppCompatActivity{
 
     public void irdietas(View view)
     {
-        if (ResultadoDieta < 1400) {
+        if (ResultadoDieta > 1 &&  ResultadoDieta< 1599) {
             Intent dieta1500= new Intent(HomeRutinas.this,Dieta1500.class);
             startActivity(dieta1500);
-        } else {
+        }
+        else if (ResultadoDieta > 1600 &&  ResultadoDieta< 1699) {
+            Intent dieta1600= new Intent(HomeRutinas.this,Dieta1600.class);
+            startActivity(dieta1600);
+        }
+        else if (ResultadoDieta > 1700 &&  ResultadoDieta< 1799) {
+            Intent dieta1700= new Intent(HomeRutinas.this,Dieta1700.class);
+            startActivity(dieta1700);
+        }
+        else if (ResultadoDieta > 1800 &&  ResultadoDieta< 1899) {
+            Intent dieta1800= new Intent(HomeRutinas.this,Dieta1800.class);
+            startActivity(dieta1800);
+        }
+        else if (ResultadoDieta > 1900 &&  ResultadoDieta< 1999) {
+            Intent dieta1900= new Intent(HomeRutinas.this,Dieta1900.class);
+            startActivity(dieta1900);
+        }
+        else {
             Intent dietas= new Intent(HomeRutinas.this,Dietas.class);
             startActivity(dietas);
         }
