@@ -777,15 +777,28 @@
     <string name="kippingpullupsinfo">El movimiento se inicia con un arqueo exagerado del cuerpo hacia delante (extensión de columna y cadera con una flexión máxima de hombros) para posteriormente realizar una flexión explosiva de caderas y tronco junto con la extensión y aducción de hombros y realizar la tracción; facilitada esta por el impulso previo de piernas y tronco.</string>
     <string name="pushups">Push Ups</string>
     <string name="pushupsinfo">Primero, colócate en la posición de plancha inicial. Mantén las piernas juntas, empieza a bajar hacia el suelo, concentrándose en mantener la posición de tu cuerpo erguido. Si contraes los glúteos y los abdominales, esto te ayudará a mantener una posición corporal rígida en todo momento. Baja el cuerpo a la misma vez y no por partes.</string>
+    <string name="wod2_lbl_principiante">Wod 2 de baja intensidad</string>
     <string name="wod2_lbl_intermedio">Wod 2 intermedio</string>
     <string name="wod2_lbl_avanzado">Wod 2 de alta intensidad</string>
     <string name="muscleups">Muscle Ups</string>
     <string name="muscleupsinfo">Lo primero que debemos saber es que el muscle- up consiste en realizar una tracción o jalar al principio para elevar el cuerpo mediante un balanceo llamado kipping que nos ayudará a tomar impulso para subir, y después en un empuje para elevar el tronco por encima de la barra.</string>
     <string name="rondasdetiempo">9-7-5 \n Reps </string>
     <string name="squatsnatches135_95">Squat Snatches (135/95)</string>
+    <string name="squatsnatches135_85">Squat Snatches (135/85)</string>
+    <string name="squatsnatches99_55">Squat Snatches (99/55)</string>
+    <string name="squatsnatches115_75">Squat Snatches (115/75)</string>
     <string name="squatsnatchesinfo">Tomamos impulso con la cadera para levantar la barra por encima de la cabeza extendiendo los brazos. Recibimos la barra realizando el squat o sentadilla. Para finalizar bajamos la barra al suelo por delante del cuerpo de manera controlada. Es muy importante no cortar el movimiento.</string>
+    <string name="kippingchesttobar">Kipping Chest to bar</string>
+    <string name="kippingchesttobarinfo">Con los brazos extendidos, se realiza el movimiento de Kipping para posteriormente abrir la cadera y realizar la patada para tomar impulso. Una vez el pecho contacte con la barra, despega los brazos hacia atrás levemente para volver a encadenar el kipping necesario para la siguiente repetición.</string>
 
-
+    <string name="wod3_lbl_principiante">Wod 3 de baja intensidad</string>
+    <string name="wod3_lbl_intermedio">Wod 3 intermedio</string>
+    <string name="wod3_lbl_avanzado">Wod 3 de alta intensidad</string>
+    <string name="doubleunders">Double unders</string>
+    <string name="doubleundersinfo">La técnica correcta para los dobles saltos es mantener los pies juntos y una postura erguida. Si no lo haces así, y los realizas con los pies separados o con una postura inadecuada, no conseguirás realizar la técnica correctamente, y no conseguirás tu objetivo.</string>
+    <string name="boxjumpsover2420">Box Jumps Over(24”/20”)</string>
+    <string name="boxjumpsover">Box Jumps Over</string>
+    <string name="boxjumpsoverinfo">Esta variante del Box Jump consiste en realizar el mismo movimiento pero, además de saltar al cajón, el atleta debe acabar al otro lado del punto de partida. Puedes hacerlo apoyándote o bien, saltar de un lado a otro sin tocar el cajón.</string>
     <string name="wod4_lbl_principiante">Wod 4 de baja intensidad</string>
     <string name="wod4_lbl_intermedio">Wod 4 intermedio</string>
     <string name="wod4_lbl_avanzado">Wod 4 de alta intensidad</string>
@@ -809,6 +822,7 @@
     <string name="wod5_lbl_avanzado">Wod 5 de alta intensidad</string>
     <string name="cleanandjerk">Clean and jerk</string>
     <string name="repeticiones30">Repeticiones: \n X30</string>
+    <string name="repeticiones10">Repeticiones: \n 10</string>
     <string name="cleanandjerk135_95">Clean and jerk \n (135/95)</string>
     <string name="cleanandjerk95_75">Clean and jerk \n (95/75)</string>
     <string name="cleanandjerk75_55">Clean and jerk \n (75/55)</string>

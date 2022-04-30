@@ -63,6 +63,16 @@ public class PiernasPrincipiante extends AppCompatActivity {
         Intent infofire= new Intent(PiernasPrincipiante.this,FireHydrant.class);
         startActivity(infofire);
     }
+    public void infopunetazos(View view)
+    {
+        Intent infopunos= new Intent(PiernasPrincipiante.this,Punetazos.class);
+        startActivity(infopunos);
+    }
+    public void infoflexionesconrotacion(View view)
+    {
+        Intent infoflexionrotacion= new Intent(PiernasPrincipiante.this,FlexionesConRotacion.class);
+        startActivity(infoflexionrotacion);
+    }
 
     public void finentrenamientoPierPrin(View view)
     {

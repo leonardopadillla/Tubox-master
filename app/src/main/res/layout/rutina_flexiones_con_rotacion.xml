@@ -19,25 +19,23 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textAlignment="center"
+        android:fontFamily="@font/poppinsbold"
         android:paddingTop="15dp"
-        android:text="@string/flexiones_con_rotacion"
+        android:text="@string/kippingchesttobar"
+        android:textAlignment="center"
         android:textColor="@color/boton"
-        android:fontFamily="@font/poppinsbold">
-    </TextView>
+        android:textSize="20sp"></TextView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="15dp"
-        android:text="@string/infoflexionrotacion"
-        android:textColor="@color/white"
-        android:textAlignment="center"
-        android:justificationMode="inter_word"
         android:fontFamily="@font/poppinsbold"
+        android:justificationMode="inter_word"
+        android:paddingTop="15dp"
+        android:text="@string/kippingchesttobarinfo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="18sp"
-        tools:ignore="UnusedAttribute">
-    </TextView>
+        tools:ignore="UnusedAttribute"></TextView>
 
 </LinearLayout>

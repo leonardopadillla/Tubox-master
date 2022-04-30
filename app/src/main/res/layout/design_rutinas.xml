@@ -70,9 +70,9 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginBottom="15dp"
-            android:onClick="PecPrincipiante"
             android:contentDescription="@string/workout_description"
-            android:src="@drawable/pechop"
+            android:onClick="PecPrincipiante"
+            android:src="@drawable/principiante"
             tools:ignore="SpeakableTextPresentCheck" />
         <ImageButton
             android:id="@+id/ibtnPectoralesIntermedio"
@@ -81,7 +81,7 @@
             android:layout_marginBottom="15dp"
             android:onClick="PecIntermedio"
             android:contentDescription="@string/workout_description"
-            android:src="@drawable/pechoi"
+            android:src="@drawable/intermedio"
             tools:ignore="SpeakableTextPresentCheck" />
         <ImageButton
             android:id="@+id/ibtnPectoralesAvanzado"
@@ -105,14 +105,15 @@
             />
 
         <ImageButton
-            android:id="@+id/ibtnPiernasPrincipiante"
+            android:id="@+id/ibtnPiernasAvanzado"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:onClick="PiernasPrinc"
             android:layout_marginBottom="15dp"
             android:contentDescription="@string/workout_description"
-            android:src="@drawable/piernasprincipiante"
+            android:onClick="PiernasAvan"
+            android:src="@drawable/principiante"
             tools:ignore="SpeakableTextPresentCheck" />
+
         <ImageButton
             android:id="@+id/ibtnPiernasIntermedio"
             android:layout_width="match_parent"
@@ -120,16 +121,17 @@
             android:layout_marginBottom="15dp"
             android:contentDescription="@string/workout_description"
             android:onClick="PiernasInter"
-            android:src="@drawable/piernasintermedio"
+            android:src="@drawable/intermedio"
             tools:ignore="SpeakableTextPresentCheck" />
+
         <ImageButton
-            android:id="@+id/ibtnPiernasAvanzado"
+            android:id="@+id/ibtnPiernasPrincipiante"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginBottom="15dp"
             android:contentDescription="@string/workout_description"
-            android:onClick="PiernasAvan"
-            android:src="@drawable/piernasavanz"
+            android:onClick="PiernasPrinc"
+            android:src="@drawable/avanzado"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView

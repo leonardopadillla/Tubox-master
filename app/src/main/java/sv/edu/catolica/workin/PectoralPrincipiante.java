@@ -28,16 +28,16 @@ public class PectoralPrincipiante extends AppCompatActivity {
         u=dao.getUsuarioById(id);
     }
 
-    public void infotijera(View view)
+    public void infoabcruzados(View view)
     {
-        Intent infotijera= new Intent(PectoralPrincipiante.this,SaltoTijera.class);
-        startActivity(infotijera);
+        Intent infoabcruzados= new Intent(PectoralPrincipiante.this,AbdominalCruzado.class);
+        startActivity(infoabcruzados);
     }
 
-    public void infoflexionpared(View view)
+    public void infopunetazos(View view)
     {
-        Intent infoflexionpared= new Intent(PectoralPrincipiante.this,FlexionContraPared.class);
-        startActivity(infoflexionpared);
+        Intent infopunos= new Intent(PectoralPrincipiante.this,Punetazos.class);
+        startActivity(infopunos);
     }
 
     public void infoflexiones(View view)

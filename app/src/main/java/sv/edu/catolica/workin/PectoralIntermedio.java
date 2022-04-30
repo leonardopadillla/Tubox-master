@@ -51,7 +51,11 @@ public class PectoralIntermedio extends AppCompatActivity {
         Intent infoflexionesestre= new Intent(PectoralIntermedio.this,FlexionEstrella.class);
         startActivity(infoflexionesestre);
     }
-
+    public void infopunetazos(View view)
+    {
+        Intent infopunos= new Intent(PectoralIntermedio.this,Punetazos.class);
+        startActivity(infopunos);
+    }
     public void infoflexionespiernaselevadas(View view)
     {
         Intent infoflexionpiernas= new Intent(PectoralIntermedio.this,FlexionPiernasElevadas.class);

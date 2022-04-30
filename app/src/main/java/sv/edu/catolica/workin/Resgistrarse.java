@@ -23,7 +23,6 @@ public class Resgistrarse extends AppCompatActivity implements View.OnClickListe
 
         us=(EditText)findViewById(R.id.etUserNuevo);
         pas=(EditText)findViewById(R.id.etPasswordNuevo);
-        col=(EditText)findViewById(R.id.etColorUsuario);
         repass=(EditText)findViewById(R.id.etPasswordNuevo);
         reg = (Button)findViewById(R.id.btnEnviar);
         alt= findViewById(R.id.etaltura);
@@ -45,7 +44,7 @@ public class Resgistrarse extends AppCompatActivity implements View.OnClickListe
             case R.id.btnEnviar:
                 Usuario u = new Usuario();
                 u.setNombre(us.getText().toString());
-                u.setColorFav(col.getText().toString());
+                u.setColorFav("0");
                 u.setPassword(pas.getText().toString());
                 u.setAltura(alt.getText().toString());
                 u.setPeso(pes.getText().toString());

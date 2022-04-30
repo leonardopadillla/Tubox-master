@@ -13,30 +13,26 @@
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:rotation="-90"
-        android:src="@drawable/sentadillasalt">
-    </pl.droidsonroids.gif.GifImageView>
+        android:src="@drawable/sentadillasalt"></pl.droidsonroids.gif.GifImageView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textAlignment="center"
-        android:paddingTop="15dp"
         android:layout_margin="20dp"
-        android:text="@string/sentadilla_con_salto"
         android:fontFamily="@font/poppinsbold"
-        android:textColor="@color/boton">
-    </TextView>
+        android:paddingTop="15dp"
+        android:text="@string/boxjumpsover"
+        android:textAlignment="center"
+        android:textColor="@color/boton"
+        android:textSize="20sp"></TextView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppinsbold"
-        android:text="@string/infosetadillasalto"
-        android:textColor="@color/white"
+        android:text="@string/boxjumpsoverinfo"
         android:textAlignment="center"
-        android:textSize="18sp">
-    </TextView>
+        android:textColor="@color/white"
+        android:textSize="18sp"></TextView>
 
 </LinearLayout>
