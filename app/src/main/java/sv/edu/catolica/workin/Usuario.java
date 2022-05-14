@@ -2,19 +2,19 @@ package sv.edu.catolica.workin;
 
 public class Usuario {
     int id, RutinaPecho, RutinaAbdomen, RutinaPiernas,RutinaBrazo, RutinaTodoCuerpo;
-    String Nombre, ColorFav, Password, Altura, Peso, Edad, Resultado;
+    String Nombre, Personalizada, Password, Altura, Peso, Edad, Resultado;
 
     public Usuario() {
     }
 
-    public Usuario(int rutinaPecho, int rutinaAbdomen, int rutinaPiernas, int rutinaBrazo, int rutinaTodoCuerpo, String nombre, String colorFav, String password, String altura, String peso, String edad, String resultado) {
+    public Usuario(int rutinaPecho, int rutinaAbdomen, int rutinaPiernas, int rutinaBrazo, int rutinaTodoCuerpo, String nombre, String personalizada, String password, String altura, String peso, String edad, String resultado) {
         RutinaPecho = rutinaPecho;
         RutinaAbdomen = rutinaAbdomen;
         RutinaPiernas = rutinaPiernas;
         RutinaBrazo = rutinaBrazo;
         RutinaTodoCuerpo = rutinaTodoCuerpo;
         Nombre = nombre;
-        ColorFav = colorFav;
+        Personalizada = personalizada;
         Password = password;
         Altura = altura;
         Peso = peso;
@@ -23,7 +23,7 @@ public class Usuario {
     }
 
     public boolean isNull(){
-        if(Nombre.equals("")&& ColorFav.equals("") &&Password.equals("") &&Altura.equals("")&&Peso.equals("")&&Edad.equals("")&&Resultado.equals("")){
+        if(Nombre.equals("")&& Personalizada.equals("") &&Password.equals("") &&Altura.equals("")&&Peso.equals("")&&Edad.equals("")&&Resultado.equals("")){
             return false;
         }else{
             return true;
@@ -40,7 +40,7 @@ public class Usuario {
                 ", RutinaBrazo=" + RutinaBrazo +
                 ", RutinaTodoCuerpo=" + RutinaTodoCuerpo +
                 ", Nombre='" + Nombre + '\'' +
-                ", ColorFav='" + ColorFav + '\'' +
+                ", Personalizada='" + Personalizada + '\'' +
                 ", Password='" + Password + '\'' +
                 ", Altura='" + Altura + '\'' +
                 ", Peso='" + Peso + '\'' +
@@ -138,12 +138,12 @@ public class Usuario {
         Nombre = nombre;
     }
 
-    public String getColorFav() {
-        return ColorFav;
+    public String getPersonalizada() {
+        return Personalizada;
     }
 
-    public void setColorFav(String colorFav) {
-        ColorFav = colorFav;
+    public void setPersonalizada(String personalizada) {
+        Personalizada = personalizada;
     }
 
     public String getPassword() {

@@ -112,8 +112,33 @@
                 android:textColorHint="@color/boton"
                 android:background="@drawable/sytle_edit"
                 tools:ignore="DuplicateSpeakableTextCheck"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/codigo"
+                android:textSize="19sp"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@color/white"
+                />
+
+            <EditText
+                android:id="@+id/codigogym"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:hint="@string/ayudaConfirmarPass"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:fontFamily="@font/poppinsbold"
+                android:ems="10"
+                android:textColor="@color/white"
+                android:textColorHint="@color/boton"
+                android:background="@drawable/sytle_edit"
+                tools:ignore="DuplicateSpeakableTextCheck"/>
 
         </LinearLayout>
+
+
 
         <LinearLayout
             android:layout_width="wrap_content"

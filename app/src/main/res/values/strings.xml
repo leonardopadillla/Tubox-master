@@ -14,11 +14,13 @@
     <string name="btnEnviar">Enviar</string>
     <string name="ayuda_respuesta">Ingrese su respuesta</string>
     <string name="ayudaConfirmarPass">Repita su contraseña</string>
+    <string name="codigo">Codigo</string>
     <string name="restablecer_lbl">Restablecer contraseña</string>
     <string name="restablecer1_lbl">Cambiar Altura</string>
     <string name="restablecer2_lbl">Cambiar Peso</string>
     <string name="restablecer3_lbl">Cambiar Edad</string>
     <string name="restablecer4_lbl">Eliminar Dieta</string>
+    <string name="restablecer5_lbl">Crear Dieta</string>
     <string name="ayuda_nuevoPassword">Ingrese su nueva contraseña</string>
     <string name="ayuda_nuevaAltura">Ingrese su nueva altura</string>
     <string name="ayuda_nuevaEdad">Ingrese su nueva Edad</string>
@@ -26,10 +28,13 @@
     <string name="ayuda_nuevaEdadnuevamente">Ingrese su nueva Edad de nuevo</string>
     <string name="ayuda_nuevaAlturanuevamente">Ingrese su nueva altura de nuevo</string>
     <string name="ayuda_nuevoPesonuevamente">Ingrese su nuevo peso de nuevo</string>
+    <string name="hintet">No se ha asignado</string>
     <string name="btnGuardar">Guardar</string>
     <string name="btnGuardar1">Guardar</string>
     <string name="btnGuardar2">Guardar</string>
     <string name="btnGuardar3">Guardar</string>
+    <string name="btnGuardar4">Guardar</string>
+    <string name="btnGuardar5">Guardar</string>
     <string name="acercade_lbl">AboutUs</string>
     <string name="AlturaMB_lbl">Ninguna</string>
     <string name="PesoMB_lbl">Ninguna</string>
@@ -43,11 +48,6 @@
     <string name="imc_ayuda">medida_cintura</string>
     <string name="imc_lbl">Indice de masa corporal</string>
     <string name="consejos_lbl">Consejos</string>
-    <string name="autor1">Javier</string>
-    <string name="autor2">Olivier</string>
-    <string name="autor3">Christian</string>
-    <string name="autor4">Walter</string>
-    <string name="autor5">ROLLIE</string>
     <string name="perfil_lbl">Perfil</string>
     <string name="datos_personales_lbl">Datos Personales</string>
     <string name="nombre_lbl">Nombre</string>
@@ -252,6 +252,7 @@
     <string name="restablecerpeso_lbl">¿Desea cambiar su peso?</string>
     <string name="restableceredad_lbl">¿Desea cambiar su edad?</string>
     <string name="eliminardieta_lbl">¿Desea eliminar su dieta?</string>
+    <string name="creardieta_lbl">¿Desea crear su dieta?</string>
     <string name="tasa_de_metabolismo_basal">Tasa de metabolismo basal</string>
     <string name="seleccione_su_nivel">Seleccione su nivel</string>
     <string name="resultados_agrupados">Resultados agrupados</string>
@@ -271,6 +272,8 @@
     <string name="altura_textview">Altura (En Pies)</string>
     <string name="peso_textview">Peso (En Kilogramos)</string>
     <string name="edad_textview">Edad</string>
+    <string name="dietaperso">SU DIETA PERSONALIZADA</string>
+    <string name="nosehaagregado">No se ha agregado nada a su dieta personal</string>
     <string name="dieta1500">MENÚ SEMANAL DIETA MENORES A LAS 1500 CALORÍAS</string>
     <string name="dieta1500dia1">DIA 1</string>
     <string name="dieta1500dia1desayuno">DESAYUNO: Café con leche desnatada y 2 tostadas integrales de tomate rallado y aceite de oliva.</string>
@@ -790,7 +793,6 @@
     <string name="squatsnatchesinfo">Tomamos impulso con la cadera para levantar la barra por encima de la cabeza extendiendo los brazos. Recibimos la barra realizando el squat o sentadilla. Para finalizar bajamos la barra al suelo por delante del cuerpo de manera controlada. Es muy importante no cortar el movimiento.</string>
     <string name="kippingchesttobar">Kipping Chest to bar</string>
     <string name="kippingchesttobarinfo">Con los brazos extendidos, se realiza el movimiento de Kipping para posteriormente abrir la cadera y realizar la patada para tomar impulso. Una vez el pecho contacte con la barra, despega los brazos hacia atrás levemente para volver a encadenar el kipping necesario para la siguiente repetición.</string>
-
     <string name="wod3_lbl_principiante">Wod 3 de baja intensidad</string>
     <string name="wod3_lbl_intermedio">Wod 3 intermedio</string>
     <string name="wod3_lbl_avanzado">Wod 3 de alta intensidad</string>
@@ -815,8 +817,6 @@
     <string name="wallballs2414">Wall Balls (20/14)</string>
     <string name="boxjumpssinfo">Tomamos impulso con las piernas para saltar sobre el cajón. Puedes ayudarte con los brazos para coger fuerza, extiéndelos hacia atrás a la vez que flexionas las caderas. Recuerda no inclinar mucho el tronco hacia adelante</string>
     <string name="wallballsinfo">Agarraremos el balón con las manos en una posición que podamos controlar el lanzamiento y a su vez podamos aplicar la fuerza suficiente para lanzar bien. Si abres demasiado las manos no podrás aplicar la fuerza suficiente y además corres el riesgo de que se escurra y te golpee la cara.</string>
-
-
     <string name="wod5_lbl_principiante">Wod 5 de baja intensidad</string>
     <string name="wod5_lbl_intermedio">Wod 5 intermedio</string>
     <string name="wod5_lbl_avanzado">Wod 5 de alta intensidad</string>
@@ -827,7 +827,8 @@
     <string name="cleanandjerk95_75">Clean and jerk \n (95/75)</string>
     <string name="cleanandjerk75_55">Clean and jerk \n (75/55)</string>
     <string name="cleanandjerkinfo">Consta de dos partes: el clean, en el que se eleva la barra desde el suelo hasta los hombros, y el jerk, en el que se eleva la barra desde los hombros hasta la posición por encima de la cabeza. La incorporación de ejercicios de levantamiento de pesas en el programa de entrenamiento de un atleta tiene muchos beneficios.</string>
-
+    <string name="singleunders">Single Unders</string>
+    <string name="singleundersinfo"> Los unders individuales son cuando la cuerda pasa por debajo de sus pies solo una vez, mientras hace un salto de altura normal. En otras palabras, es como el salto normal que puede haber aprendido a hacer en la clase de gimnasia. Es muy importante que no te detengas entre giros, o que permitas que tu talón golpee el suelo.</string>
 
 
 </resources>

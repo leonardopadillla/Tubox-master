@@ -44,6 +44,16 @@
             tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
         <ImageButton
+            android:id="@+id/ibtnCD"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="25dp"
+            android:contentDescription="@string/imc_ayuda"
+            android:onClick="iricd"
+            app:srcCompat="@drawable/todoelcuerpored"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck,DuplicateSpeakableTextCheck" />
+
+        <ImageButton
             android:id="@+id/ibtnIMC"
             android:layout_width="match_parent"
             android:layout_height="150dp"

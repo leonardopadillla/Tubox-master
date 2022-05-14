@@ -14,7 +14,7 @@ public class daoUsuario {
     ArrayList<Usuario> lista;
     SQLiteDatabase sql;
     String bd="BDUsuarios";
-    String tabla="create table if not exists usuariosdb(id integer primary key autoincrement, nombre text, colorfav text, pass text, altura text, peso text, edad text, resultado text, " +
+    String tabla="create table if not exists usuariosdb(id integer primary key autoincrement, nombre text, personalizada text, pass text, altura text, peso text, edad text, resultado text, " +
             "rutinaPecho integer, rutinaAbdomen integer, rutinaPiernas integer, rutinaBrazo integer, rutinaTodoCuerpo integer)";
 
     public daoUsuario(Context c) {
@@ -28,7 +28,7 @@ public class daoUsuario {
         if (buscar(u.getNombre())==0){
             ContentValues cv=new ContentValues();
             cv.put("nombre", u.getNombre());
-            cv.put("colorfav", u.getColorFav());
+            cv.put("personalizada", u.getPersonalizada());
             cv.put("pass", u.getPassword());
             cv.put("altura", u.getAltura());
             cv.put("peso", u.getPeso());
@@ -65,7 +65,7 @@ public class daoUsuario {
                 Usuario u=new Usuario();
                 u.setId(cr.getInt(0));
                 u.setNombre(cr.getString(1));
-                u.setColorFav(cr.getString(2));
+                u.setPersonalizada(cr.getString(2));
                 u.setPassword(cr.getString(3));
                 u.setAltura(cr.getString(4));
                 u.setPeso(cr.getString(5));
@@ -119,7 +119,7 @@ public class daoUsuario {
      public boolean updateUsuario(Usuario u){
          ContentValues cv=new ContentValues();
          cv.put("nombre", u.getNombre());
-         cv.put("colorfav", u.getColorFav());
+         cv.put("personalizada", u.getPersonalizada());
          cv.put("pass", u.getPassword());
          cv.put("altura", u.getAltura());
          cv.put("peso", u.getPeso());

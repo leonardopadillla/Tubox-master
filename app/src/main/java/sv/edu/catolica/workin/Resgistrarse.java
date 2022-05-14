@@ -11,9 +11,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Resgistrarse extends AppCompatActivity implements View.OnClickListener {
 
-    EditText us, pas, col,repass, alt, pes, edd;
+    EditText us;
+    EditText pas;
+    EditText col;
+    EditText repass;
+    EditText alt;
+    EditText pes;
+    EditText edd;
+    EditText cod;
     Button reg;
     daoUsuario dao;
+    String codigofinalgym;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +36,9 @@ public class Resgistrarse extends AppCompatActivity implements View.OnClickListe
         alt= findViewById(R.id.etaltura);
         pes=findViewById(R.id.etPeso);
         edd=findViewById(R.id.etEdad);
+        cod=findViewById(R.id.codigogym);
         reg.setOnClickListener(this);
+
 
         dao=new daoUsuario(this);
     }
@@ -44,7 +54,7 @@ public class Resgistrarse extends AppCompatActivity implements View.OnClickListe
             case R.id.btnEnviar:
                 Usuario u = new Usuario();
                 u.setNombre(us.getText().toString());
-                u.setColorFav("0");
+                u.setPersonalizada("0");
                 u.setPassword(pas.getText().toString());
                 u.setAltura(alt.getText().toString());
                 u.setPeso(pes.getText().toString());
@@ -55,9 +65,11 @@ public class Resgistrarse extends AppCompatActivity implements View.OnClickListe
                 u.setRutinaPecho(0);
                 u.setRutinaPiernas(0);
                 u.setRutinaTodoCuerpo(0);
-                if (!u.isNull()){
-                    Toast.makeText( this, "ERROR: Campos vacíos", Toast.LENGTH_SHORT).show();
-                }else if(pas.getText().toString().equals(repass.getText().toString())){
+                String c =  cod.getText().toString();
+                String codigof = "tubox123";
+                if (!u.isNull()&&c.equals("")){
+                    Toast.makeText( this, "ERROR: Campos vacíos o no ha introducido el codigo correctamente", Toast.LENGTH_SHORT).show();
+                }else if(pas.getText().toString().equals(repass.getText().toString())&&c.equals(codigof)){
                     if(dao.insertUsuario(u)) {
                         Toast.makeText(this, "Registro Exitoso!", Toast.LENGTH_SHORT).show();
                         Intent enviar = new Intent(Resgistrarse.this, Login.class);
@@ -68,7 +80,7 @@ public class Resgistrarse extends AppCompatActivity implements View.OnClickListe
                         }
                 }
                 else {
-                    Toast.makeText( this, "Usuario ya registrado!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText( this, "Usuario ya registrado o codigo invalido", Toast.LENGTH_SHORT).show();
                 }
                 break;
         }

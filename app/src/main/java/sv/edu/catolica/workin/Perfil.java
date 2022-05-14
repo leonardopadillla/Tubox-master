@@ -22,7 +22,7 @@ import java.util.UUID;
 
 public class Perfil extends AppCompatActivity implements View.OnClickListener {
     TextView nombre, estatura, peso, edad, calorias, progressAb, progressP, progressPecho, progressBrazo, progressTC;
-    Button ress, ress1, ress2, ress3,ress4;
+    Button ress, ress1, ress2, ress3,ress4, ress5;
     ProgressBar pb;
     int id = 0;
     Usuario u;
@@ -34,6 +34,7 @@ public class Perfil extends AppCompatActivity implements View.OnClickListener {
     Calendar actual = Calendar.getInstance();
     Calendar calendar = Calendar.getInstance();
     String eliminarresultado;
+    Double llamarresultado;
 
     private int minutos, hora, dia;
 
@@ -59,6 +60,7 @@ public class Perfil extends AppCompatActivity implements View.OnClickListener {
         ress2 = findViewById(R.id.restablecer2);
         ress3 = findViewById(R.id.restablecer3);
         ress4 = findViewById(R.id.restablecer4);
+        ress5 = findViewById(R.id.restablecer5);
 
 
         Bundle bundle = getIntent().getExtras();
@@ -70,7 +72,12 @@ public class Perfil extends AppCompatActivity implements View.OnClickListener {
         estatura.setText(u.getAltura());
         peso.setText(u.getPeso());
         edad.setText(u.getEdad());
-        calorias.setText(u.getResultado());
+        llamarresultado= Double.parseDouble(u.getResultado());
+
+        if (llamarresultado >0 && llamarresultado <=1){
+            calorias.setText("Calorias sin calcular");
+        }
+        else {calorias.setText(u.getResultado());}
 
         progressAb.setText("Número de rutinas Wod 1 completadas satisfactoriamente: " + u.getRutinaAbdomen());
         progressP.setText("Número de rutinas Wod 2 completadas satisfactoriamente: " + u.getRutinaPecho());
@@ -206,6 +213,20 @@ public class Perfil extends AppCompatActivity implements View.OnClickListener {
                 finish();
             }
         });
+        ress5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switch (v.getId()) {
+                    case R.id.restablecer5:
+                        Intent intent = new Intent(Perfil.this, Creardieta.class);
+                        intent.putExtra("id", u.getId());
+                        startActivity(intent);
+                        finish();
+                        break;
+                }
+            }
+        });
+
 
     }
 

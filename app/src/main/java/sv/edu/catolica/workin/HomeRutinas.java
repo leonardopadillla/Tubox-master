@@ -64,7 +64,12 @@ public class HomeRutinas extends AppCompatActivity{
 
     public void irdietas(View view)
     {
-        if (ResultadoDieta > 1 &&  ResultadoDieta< 1599) {
+        if (ResultadoDieta >= 1 &&  ResultadoDieta< 2) {
+            Intent dietaper= new Intent(HomeRutinas.this,DietaPer.class);
+            dietaper.putExtra("id",u.getId());
+            startActivity(dietaper);
+        }
+        else if (ResultadoDieta > 2 &&  ResultadoDieta< 1599) {
             Intent dieta1500= new Intent(HomeRutinas.this,Dieta1500.class);
             startActivity(dieta1500);
         }
@@ -120,6 +125,13 @@ public class HomeRutinas extends AppCompatActivity{
         Intent imc= new Intent(HomeRutinas.this,IndiceMasaCorporal.class);
         imc.putExtra("id",u.getId());
         startActivity(imc);
+    }
+
+    public void iricd(View view)
+    {
+        Intent icd= new Intent(HomeRutinas.this,Creardieta.class);
+        icd.putExtra("id",u.getId());
+        startActivity(icd);
     }
     public void irimb(View view)
     {

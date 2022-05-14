@@ -15,7 +15,7 @@ public class RestablecerContrasena extends AppCompatActivity implements View.OnC
     int id=0;
     Usuario u;
     daoUsuario dao;
-    String colorsi;
+    String personalizadasi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +32,7 @@ public class RestablecerContrasena extends AppCompatActivity implements View.OnC
         id=bundle.getInt("id");
         dao=new daoUsuario(this);
         u=dao.getUsuarioById(id);
-        colorsi=u.getColorFav();
+        personalizadasi=u.getPersonalizada();
 
     }
 

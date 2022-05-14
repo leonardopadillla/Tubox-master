@@ -326,12 +326,28 @@
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="22sp"></TextView>
+
         <Button
             android:id="@+id/restablecer3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/restablecer3_lbl"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/creardieta_lbl"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"></TextView>
+        <Button
+            android:id="@+id/restablecer5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:text="@string/restablecer3_lbl"/>
+            android:text="@string/restablecer5_lbl"/>
 
         <TextView
             android:layout_width="match_parent"

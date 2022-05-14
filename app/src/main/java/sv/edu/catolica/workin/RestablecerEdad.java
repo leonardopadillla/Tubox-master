@@ -15,7 +15,7 @@ public class RestablecerEdad extends AppCompatActivity implements View.OnClickLi
     int id=0;
     Usuario u;
     daoUsuario dao;
-    String colorsi;
+    String personalizadasi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +32,7 @@ public class RestablecerEdad extends AppCompatActivity implements View.OnClickLi
         id=bundle.getInt("id");
         dao=new daoUsuario(this);
         u=dao.getUsuarioById(id);
-        colorsi=u.getColorFav();
+        personalizadasi=u.getPersonalizada();
 
     }
 

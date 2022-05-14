@@ -219,6 +219,12 @@
             android:name=".Metabolismobasal"
             android:exported="false" />
         <activity
+            android:name=".DietaPer"
+            android:exported="false" />
+        <activity
+            android:name=".Creardieta"
+            android:exported="false" />
+        <activity
             android:name=".Dieta1500"
             android:exported="false" />
         <activity
