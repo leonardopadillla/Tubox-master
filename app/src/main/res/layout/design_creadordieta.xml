@@ -17,12 +17,26 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/perfil_lbl"
-            android:textColor="@color/boton"
-            android:textSize="28sp"
-            android:gravity="center"
+            android:layout_marginBottom="20dp"
             android:fontFamily="@font/poppinsbold"
-            android:layout_marginBottom="20dp"/>
+            android:gravity="center"
+            android:text="@string/creadordedieta_lbl"
+            android:textColor="@color/boton"
+            android:textSize="28sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/calculardieta_lbl"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="22sp"></TextView>
+        <Button
+            android:id="@+id/restablecer6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/calculardieta_btn"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -53,6 +67,8 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:text="@string/restablecer4_lbl"/>
+
+
 
     </LinearLayout>
 

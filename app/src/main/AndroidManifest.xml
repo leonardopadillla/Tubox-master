@@ -225,6 +225,9 @@
             android:name=".Creardieta"
             android:exported="false" />
         <activity
+            android:name=".Creadordieta"
+            android:exported="false" />
+        <activity
             android:name=".Dieta1500"
             android:exported="false" />
         <activity

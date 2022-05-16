@@ -252,7 +252,10 @@
     <string name="restablecerpeso_lbl">¿Desea cambiar su peso?</string>
     <string name="restableceredad_lbl">¿Desea cambiar su edad?</string>
     <string name="eliminardieta_lbl">¿Desea eliminar su dieta?</string>
-    <string name="creardieta_lbl">¿Desea crear su dieta?</string>
+    <string name="creardieta_lbl">¿Desea agregar su dieta personalizada?</string>
+    <string name="calculardieta_lbl">¿Desea calcular su dieta?</string>
+    <string name="creadordedieta_lbl">Obtener dieta</string>
+    <string name="calculardieta_btn">CALCULAR</string>
     <string name="tasa_de_metabolismo_basal">Tasa de metabolismo basal</string>
     <string name="seleccione_su_nivel">Seleccione su nivel</string>
     <string name="resultados_agrupados">Resultados agrupados</string>

@@ -33,15 +33,6 @@
             app:srcCompat="@drawable/dietahome2"
             tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
             />
-        <ImageButton
-            android:id="@+id/ibtnMB"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_marginBottom="25dp"
-            android:contentDescription="@string/imc_ayuda"
-            android:onClick="irimb"
-            app:srcCompat="@drawable/imcfondo2"
-            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck,DuplicateSpeakableTextCheck" />
 
         <ImageButton
             android:id="@+id/ibtnCD"

@@ -60,7 +60,6 @@ public class Perfil extends AppCompatActivity implements View.OnClickListener {
         ress2 = findViewById(R.id.restablecer2);
         ress3 = findViewById(R.id.restablecer3);
         ress4 = findViewById(R.id.restablecer4);
-        ress5 = findViewById(R.id.restablecer5);
 
 
         Bundle bundle = getIntent().getExtras();
@@ -197,35 +196,8 @@ public class Perfil extends AppCompatActivity implements View.OnClickListener {
                 }
             }
         });
-        ress4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                eliminarresultado="0";
-                u.setResultado(eliminarresultado);
-                dao.updateUsuario(u);
-                Toast toast1 =
-                        Toast.makeText(getApplicationContext(),
-                                "Se elimino su dieta exitosamente", Toast.LENGTH_SHORT);
-                toast1.show();
-                Intent in = new Intent(Perfil.this, Login.class);
-                in.putExtra("id",u.getId());
-                startActivity(in);
-                finish();
-            }
-        });
-        ress5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                switch (v.getId()) {
-                    case R.id.restablecer5:
-                        Intent intent = new Intent(Perfil.this, Creardieta.class);
-                        intent.putExtra("id", u.getId());
-                        startActivity(intent);
-                        finish();
-                        break;
-                }
-            }
-        });
+
+
 
 
     }

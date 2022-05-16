@@ -129,16 +129,11 @@ public class HomeRutinas extends AppCompatActivity{
 
     public void iricd(View view)
     {
-        Intent icd= new Intent(HomeRutinas.this,Creardieta.class);
+        Intent icd= new Intent(HomeRutinas.this,Creadordieta.class);
         icd.putExtra("id",u.getId());
         startActivity(icd);
     }
-    public void irimb(View view)
-    {
-        Intent imb= new Intent(HomeRutinas.this,Metabolismobasal.class);
-        imb.putExtra("id",u.getId());
-        startActivity(imb);
-    }
+
 
     public void irconsejos(View view)
     {
