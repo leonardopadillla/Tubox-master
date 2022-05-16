@@ -70,15 +70,19 @@ public class Resgistrarse extends AppCompatActivity implements View.OnClickListe
                 if (!u.isNull()&&c.equals("")){
                     Toast.makeText( this, "ERROR: Campos vacíos o no ha introducido el codigo correctamente", Toast.LENGTH_SHORT).show();
                 }else if(pas.getText().toString().equals(repass.getText().toString())&&c.equals(codigof)){
+
                     if(dao.insertUsuario(u)) {
                         Toast.makeText(this, "Registro Exitoso!", Toast.LENGTH_SHORT).show();
                         Intent enviar = new Intent(Resgistrarse.this, Login.class);
                         startActivity(enviar);
                         finish();
-                    }else{
+
+                    }
+                    else{
                         Toast.makeText( this, "Las contraseñas no coinciden", Toast.LENGTH_SHORT).show();
                         }
                 }
+
                 else {
                     Toast.makeText( this, "Usuario ya registrado o codigo invalido", Toast.LENGTH_SHORT).show();
                 }

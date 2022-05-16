@@ -12,7 +12,6 @@ import androidx.appcompat.app.AppCompatActivity;
 public class Creadordieta extends AppCompatActivity implements View.OnClickListener {
     Button ress6,ress4, ress5;
     String eliminarresultado;
-    Double llamarresultado;
     int id = 0;
     Usuario u;
     daoUsuario dao;
