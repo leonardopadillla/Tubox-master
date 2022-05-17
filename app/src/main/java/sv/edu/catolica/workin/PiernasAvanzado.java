@@ -27,7 +27,11 @@ public class PiernasAvanzado extends AppCompatActivity {
         dao=new daoUsuario(this);
         u=dao.getUsuarioById(id);
     }
-
+    public void infopunetazos(View view)
+    {
+        Intent infopunetazos= new Intent(PiernasAvanzado.this,Punetazos.class);
+        startActivity(infopunetazos);
+    }
     public void infotijera(View view)
     {
         Intent infotijera= new Intent(PiernasAvanzado.this,SaltoTijera.class);
