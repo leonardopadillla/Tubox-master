@@ -64,10 +64,10 @@ public class PiernasIntermedio extends AppCompatActivity {
         startActivity(infosentadillasalto);
     }
 
-    public void infoplanchaconlevantamientopierna(View view)
+    public void infopunetazos(View view)
     {
-        Intent infoplanchaleva= new Intent(PiernasIntermedio.this,PlanchaConLevantamiento.class);
-        startActivity(infoplanchaleva);
+        Intent infopunetazos= new Intent(PiernasIntermedio.this,Punetazos.class);
+        startActivity(infopunetazos);
     }
 
     public void infowallsit(View view)

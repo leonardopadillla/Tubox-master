@@ -13,33 +13,30 @@
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:rotation="-90"
-        android:src="@drawable/elevacionrodilla">
-    </pl.droidsonroids.gif.GifImageView>
+        android:src="@drawable/elevacionrodilla"></pl.droidsonroids.gif.GifImageView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
         android:layout_margin="60dp"
-        android:textAlignment="center"
+        android:fontFamily="@font/poppinsbold"
         android:paddingTop="15dp"
-        android:text="@string/elevaci_n_de_rodillas"
+        android:text="@string/toestobar"
+        android:textAlignment="center"
         android:textColor="@color/boton"
-        android:fontFamily="@font/poppinsbold">
+        android:textSize="20sp">
 
     </TextView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/infoelevacionrodilla"
-        android:textColor="@color/white"
         android:fontFamily="@font/poppinsbold"
         android:justificationMode="inter_word"
+        android:text="@string/toestobarinfo"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="18sp"
-        tools:ignore="UnusedAttribute">
-    </TextView>
+        tools:ignore="UnusedAttribute"></TextView>
 
 </LinearLayout>

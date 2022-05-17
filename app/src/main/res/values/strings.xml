@@ -773,6 +773,7 @@
     <string name="bandassistedpullups">Band Assisted Pull Ups</string>
     <string name="bandassistedpullupsinfo">-Para ejecutar correctamente una dominada asistida por banda, primero necesitará una banda de resistencia larga. Vas a necesitar uno que sea más largo que tu altura cuando estés estirado; de lo contrario, comenzarás con la cabeza sobre la barra, ¡lo que pierde el objetivo del ejercicio! También debe hacer coincidir la resistencia de la banda con su peso corporal, lo que puede requerir un poco de experimentación. Si no es lo suficientemente resistente, no te dará el apoyo que necesitas.</string>
     <string name="repeticiones100">Repeticiones: \n X100</string>
+    <string name="repeticiones25">Repeticiones: \n X25</string>
     <string name="airsquats">Air Squats</string>
     <string name="airsquatsinfo">-Debes colocarte con los pies separados, aproximadamente a la altura de los hombros y ligeramente abiertos. Concéntrate en un punto fijo con tu mirada y extiende los brazos hacia delante en el momento que flexiones tus rodillas. La espalda debe permanecer en posición neutra en todo momento  y la cadera debe bajar por debajo de tus rodillas.</string>
     <string name="repeticiones150">Repeticiones: \n X150</string>
@@ -802,6 +803,7 @@
     <string name="doubleunders">Double unders</string>
     <string name="doubleundersinfo">La técnica correcta para los dobles saltos es mantener los pies juntos y una postura erguida. Si no lo haces así, y los realizas con los pies separados o con una postura inadecuada, no conseguirás realizar la técnica correctamente, y no conseguirás tu objetivo.</string>
     <string name="boxjumpsover2420">Box Jumps Over(24”/20”)</string>
+    <string name="boxjumpsover20">Box Jumps Over(20”)</string>
     <string name="boxjumpsover">Box Jumps Over</string>
     <string name="boxjumpsoverinfo">Esta variante del Box Jump consiste en realizar el mismo movimiento pero, además de saltar al cajón, el atleta debe acabar al otro lado del punto de partida. Puedes hacerlo apoyándote o bien, saltar de un lado a otro sin tocar el cajón.</string>
     <string name="wod4_lbl_principiante">Wod 4 de baja intensidad</string>
@@ -826,13 +828,15 @@
     <string name="cleanandjerk">Clean and jerk</string>
     <string name="repeticiones30">Repeticiones: \n X30</string>
     <string name="repeticiones10">Repeticiones: \n 10</string>
+    <string name="repeticiones20">Repeticiones: \n 20</string>
     <string name="cleanandjerk135_95">Clean and jerk \n (135/95)</string>
     <string name="cleanandjerk95_75">Clean and jerk \n (95/75)</string>
     <string name="cleanandjerk75_55">Clean and jerk \n (75/55)</string>
     <string name="cleanandjerkinfo">Consta de dos partes: el clean, en el que se eleva la barra desde el suelo hasta los hombros, y el jerk, en el que se eleva la barra desde los hombros hasta la posición por encima de la cabeza. La incorporación de ejercicios de levantamiento de pesas en el programa de entrenamiento de un atleta tiene muchos beneficios.</string>
     <string name="singleunders">Single Unders</string>
     <string name="singleundersinfo"> Los unders individuales son cuando la cuerda pasa por debajo de sus pies solo una vez, mientras hace un salto de altura normal. En otras palabras, es como el salto normal que puede haber aprendido a hacer en la clase de gimnasia. Es muy importante que no te detengas entre giros, o que permitas que tu talón golpee el suelo.</string>
-
+    <string name="toestobar">Toes to bar</string>
+    <string name="toestobarinfo">En las primeras fases al subir piernas y descender se necesita una gran fuerza en la pared abdominal para evitar que la cadera se disponga en rotación anterior (anteversión). Recuerda evitar el balanceo, para ello desciende de forma controlada.</string>
 
 </resources>
 

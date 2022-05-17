@@ -17,13 +17,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
-            android:text="@string/piernas_intermedio"
+            android:text="@string/wod3_lbl_intermedio"
             android:textAlignment="center"
             android:textAllCaps="true"
-            android:textSize="24sp"
             android:textColor="@color/boton"
-            android:textStyle="bold">
-        </TextView>
+            android:textSize="24sp"
+            android:textStyle="bold"></TextView>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,24 +44,23 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:padding="15dp">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textAlignment="center"
                     android:fontFamily="@font/poppinsbold"
-                    android:textSize="14sp"
-                    android:text="@string/fire_hydrant_nambas_piernas"
-                    android:textColor="@color/white">
-                </TextView>
+                    android:text="@string/singleunders"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"></TextView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:fontFamily="@font/poppinsbold"
+                    android:text="@string/repeticiones100"
                     android:textAlignment="center"
-                    android:text="@string/repeticiones_n_x20_n_series_2"
-                    android:textColor="@color/white">
-                </TextView>
+                    android:textColor="@color/white"></TextView>
 
             </LinearLayout>
 
@@ -89,7 +87,7 @@
                 android:layout_height="135dp"
                 android:layout_marginEnd="20dp"
                 android:contentDescription="@string/imagendeejercicio"
-                android:src="@drawable/elevapiernalat">
+                android:src="@drawable/sentadillasalt">
             </ImageView>
 
             <LinearLayout
@@ -97,24 +95,23 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:padding="15dp">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    android:textSize="15sp"
                     android:fontFamily="@font/poppinsbold"
-                    android:text="@string/elevacion_de_piernas_lateral"
-                    android:textColor="@color/white">
-                </TextView>
+                    android:text="@string/boxjumpsover2420"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"></TextView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:textAlignment="center"
                     android:fontFamily="@font/poppinsbold"
-                    android:text="@string/repeticiones_n_x20_n_series_2"
-                    android:textColor="@color/white">
-                </TextView>
+                    android:text="@string/repeticiones30"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"></TextView>
 
             </LinearLayout>
 
@@ -125,7 +122,59 @@
                 android:src="@drawable/ic_info"
                 android:background="@color/transparente"
                 android:layout_gravity="center"
-                android:onClick="infoelevacionlateral"
+                android:onClick="infosentadillasalto"
+                android:contentDescription="@string/iconoayuda">
+            </ImageButton>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ejercicio3PecPI"
+                android:layout_width="125dp"
+                android:layout_height="135dp"
+                android:layout_marginEnd="20dp"
+                android:contentDescription="@string/imagendeejercicio"
+                android:src="@drawable/firehydrant"
+                tools:ignore="ImageContrastCheck">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/singleunders"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/repeticiones100"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"></TextView>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/infoEjer3PecII"
+                android:src="@drawable/ic_info"
+                android:background="@color/transparente"
+                android:layout_gravity="center"
+                android:onClick="infofirehydrant"
                 android:contentDescription="@string/iconoayuda">
             </ImageButton>
 
@@ -142,10 +191,8 @@
                 android:layout_width="125dp"
                 android:layout_height="135dp"
                 android:layout_marginEnd="20dp"
-                android:rotation="-90"
                 android:contentDescription="@string/imagendeejercicio"
-                android:src="@drawable/elevacionrodilla">
-            </ImageView>
+                android:src="@drawable/elevacionrodilla"></ImageView>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -156,22 +203,20 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/elevaci_n_de_rodillas"
-                    android:textAlignment="center"
                     android:fontFamily="@font/poppinsbold"
+                    android:text="@string/toestobar"
+                    android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:textSize="16sp">
-                </TextView>
+                    android:textSize="16sp"></TextView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:paddingTop="5dp"
                     android:fontFamily="@font/poppinsbold"
+                    android:paddingTop="5dp"
+                    android:text="@string/repeticiones20"
                     android:textAlignment="center"
-                    android:text="@string/repeticiones_n_x30"
-                    android:textColor="@color/white">
-                </TextView>
+                    android:textColor="@color/white"></TextView>
 
             </LinearLayout>
 
@@ -187,19 +232,20 @@
             </ImageButton>
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/ejercicio6PecP"
+                android:id="@+id/ejercicio3PecPII"
                 android:layout_width="125dp"
                 android:layout_height="135dp"
                 android:layout_marginEnd="20dp"
-                android:rotation="-90"
                 android:contentDescription="@string/imagendeejercicio"
-                android:src="@drawable/sentadillasalt">
+                android:src="@drawable/firehydrant"
+                tools:ignore="ImageContrastCheck">
             </ImageView>
 
             <LinearLayout
@@ -207,39 +253,39 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:padding="15dp">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    android:textSize="15sp"
                     android:fontFamily="@font/poppinsbold"
-                    android:text="@string/sentadilla_con_salto"
-                    android:textColor="@color/white">
-                </TextView>
+                    android:text="@string/singleunders"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"></TextView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:fontFamily="@font/poppinsbold"
+                    android:text="@string/repeticiones100"
                     android:textAlignment="center"
-                    android:text="@string/repeticiones_n_x20_n_series_2"
-                    android:textColor="@color/white">
-                </TextView>
+                    android:textColor="@color/white"></TextView>
 
             </LinearLayout>
 
             <ImageButton
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:id="@+id/infoEjer6PecP"
+                android:id="@+id/infoEjer3PecIII"
                 android:src="@drawable/ic_info"
                 android:background="@color/transparente"
                 android:layout_gravity="center"
-                android:onClick="infosentadillasalto"
+                android:onClick="infofirehydrant"
                 android:contentDescription="@string/iconoayuda">
             </ImageButton>
 
         </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -252,7 +298,7 @@
                 android:layout_height="135dp"
                 android:layout_marginEnd="20dp"
                 android:contentDescription="@string/imagendeejercicio"
-                android:src="@drawable/planchalelevpierna"
+                android:src="@drawable/punos"
                 tools:ignore="ImageContrastCheck">
             </ImageView>
 
@@ -267,7 +313,7 @@
                     android:textAlignment="center"
                     android:textSize="14sp"
                     android:fontFamily="@font/poppinsbold"
-                    android:text="@string/plancha_con_n_levantamiento"
+                    android:text="@string/squatsnatches115_75"
                     android:textColor="@color/white">
                 </TextView>
 
@@ -277,7 +323,7 @@
                     android:textAlignment="center"
                     android:paddingTop="4dp"
                     android:fontFamily="@font/poppinsbold"
-                    android:text="@string/repeticiones_n_x12"
+                    android:text="@string/repeticiones20"
                     android:textColor="@color/white">
                 </TextView>
 
@@ -290,7 +336,7 @@
                 android:src="@drawable/ic_info"
                 android:background="@color/transparente"
                 android:layout_gravity="center"
-                android:onClick="infoplanchaconlevantamientopierna"
+                android:onClick="infopunetazos"
                 android:contentDescription="@string/iconoayuda">
             </ImageButton>
 
@@ -302,13 +348,12 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/ejercicio8PecI"
+                android:id="@+id/ejercicio3PecPIII"
                 android:layout_width="125dp"
                 android:layout_height="135dp"
                 android:layout_marginEnd="20dp"
-                android:rotation="-90"
                 android:contentDescription="@string/imagendeejercicio"
-                android:src="@drawable/sitwall"
+                android:src="@drawable/firehydrant"
                 tools:ignore="ImageContrastCheck">
             </ImageView>
 
@@ -317,36 +362,238 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:padding="15dp">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textAlignment="center"
                     android:fontFamily="@font/poppinsbold"
-                    android:textSize="16sp"
-                    android:text="@string/wall_sit"
-                    android:textColor="@color/white">
-                </TextView>
+                    android:text="@string/singleunders"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"></TextView>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:textAlignment="center"
-                    android:paddingTop="5dp"
                     android:fontFamily="@font/poppinsbold"
-                    android:text="@string/repeticiones_n_x20seg"
-                    android:textColor="@color/white">
-                </TextView>
+                    android:text="@string/repeticiones100"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"></TextView>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/infoEjer3PecIIII"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@color/transparente"
+                android:contentDescription="@string/iconoayuda"
+                android:onClick="infofirehydrant"
+                android:src="@drawable/ic_info"></ImageButton>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ejercicio6PecPI"
+                android:layout_width="125dp"
+                android:layout_height="135dp"
+                android:layout_marginEnd="20dp"
+                android:contentDescription="@string/imagendeejercicio"
+                android:src="@drawable/elevacionrodilla"></ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/toestobar"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/repeticiones20"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"></TextView>
 
             </LinearLayout>
 
             <ImageButton
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:id="@+id/infoEjer3PecP"
+                android:id="@+id/infoEjer6PecPI"
                 android:src="@drawable/ic_info"
                 android:background="@color/transparente"
                 android:layout_gravity="center"
-                android:onClick="infowallsit"
+                android:onClick="infoelevacionrodillas"
+                android:contentDescription="@string/iconoayuda">
+            </ImageButton>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ejercicio3PecPIIII"
+                android:layout_width="125dp"
+                android:layout_height="135dp"
+                android:layout_marginEnd="20dp"
+                android:contentDescription="@string/imagendeejercicio"
+                android:src="@drawable/firehydrant"
+                tools:ignore="ImageContrastCheck">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/singleunders"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/repeticiones100"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"></TextView>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/infoEjer3PecIIIII"
+                android:src="@drawable/ic_info"
+                android:background="@color/transparente"
+                android:layout_gravity="center"
+                android:onClick="infofirehydrant"
+                android:contentDescription="@string/iconoayuda">
+            </ImageButton>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ejercicio4PecPI"
+                android:layout_width="125dp"
+                android:layout_height="135dp"
+                android:layout_marginEnd="20dp"
+                android:contentDescription="@string/imagendeejercicio"
+                android:src="@drawable/sentadillasalt">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/boxjumpsover2420"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/repeticiones30"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"></TextView>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/infoEjer4PecPII"
+                android:src="@drawable/ic_info"
+                android:background="@color/transparente"
+                android:layout_gravity="center"
+                android:onClick="infosentadillasalto"
+                android:contentDescription="@string/iconoayuda">
+            </ImageButton>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ejercicio3PecPIIII"
+                android:layout_width="125dp"
+                android:layout_height="135dp"
+                android:layout_marginEnd="20dp"
+                android:contentDescription="@string/imagendeejercicio"
+                android:src="@drawable/firehydrant"
+                tools:ignore="ImageContrastCheck">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/singleunders"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppinsbold"
+                    android:text="@string/repeticiones100"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"></TextView>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/infoEjer3PecIIIIII"
+                android:src="@drawable/ic_info"
+                android:background="@color/transparente"
+                android:layout_gravity="center"
+                android:onClick="infofirehydrant"
                 android:contentDescription="@string/iconoayuda">
             </ImageButton>
 
