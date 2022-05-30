@@ -136,6 +136,31 @@
                 android:background="@drawable/sytle_edit"
                 tools:ignore="DuplicateSpeakableTextCheck"/>
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/colorfav_lbl"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/colorfavoritoet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="no"
+                android:background="@drawable/sytle_edit"
+                android:ems="10"
+                android:fontFamily="@font/poppinsbold"
+                android:hint="@string/ayudaConfirmarPass"
+                android:minHeight="48dp"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="@color/boton"
+                tools:ignore="DuplicateSpeakableTextCheck"
+                 />
+
         </LinearLayout>
 
 

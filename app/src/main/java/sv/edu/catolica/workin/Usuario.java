@@ -2,17 +2,18 @@ package sv.edu.catolica.workin;
 
 public class Usuario {
     int id, RutinaPecho, RutinaAbdomen, RutinaPiernas,RutinaBrazo, RutinaTodoCuerpo;
-    String Nombre, Personalizada, Password, Altura, Peso, Edad, Resultado;
+    String Nombre, Personalizada, Password, Altura, Peso, Edad, Resultado, Colorfav;
 
     public Usuario() {
     }
 
-    public Usuario(int rutinaPecho, int rutinaAbdomen, int rutinaPiernas, int rutinaBrazo, int rutinaTodoCuerpo, String nombre, String personalizada, String password, String altura, String peso, String edad, String resultado) {
+    public Usuario(int rutinaPecho, int rutinaAbdomen, int rutinaPiernas, int rutinaBrazo, int rutinaTodoCuerpo, String nombre, String personalizada, String password, String altura, String peso, String edad, String resultado, String colorfav) {
         RutinaPecho = rutinaPecho;
         RutinaAbdomen = rutinaAbdomen;
         RutinaPiernas = rutinaPiernas;
         RutinaBrazo = rutinaBrazo;
         RutinaTodoCuerpo = rutinaTodoCuerpo;
+        Colorfav = colorfav;
         Nombre = nombre;
         Personalizada = personalizada;
         Password = password;
@@ -23,7 +24,7 @@ public class Usuario {
     }
 
     public boolean isNull(){
-        if(Nombre.equals("")&& Personalizada.equals("") &&Password.equals("") &&Altura.equals("")&&Peso.equals("")&&Edad.equals("")&&Resultado.equals("")){
+        if(Nombre.equals("")&& Personalizada.equals("") &&Password.equals("") &&Altura.equals("")&&Peso.equals("")&&Edad.equals("")&&Resultado.equals("")&&Colorfav.equals("")){
             return false;
         }else{
             return true;
@@ -40,6 +41,7 @@ public class Usuario {
                 ", RutinaBrazo=" + RutinaBrazo +
                 ", RutinaTodoCuerpo=" + RutinaTodoCuerpo +
                 ", Nombre='" + Nombre + '\'' +
+                ", Colorfav='" + Colorfav + '\'' +
                 ", Personalizada='" + Personalizada + '\'' +
                 ", Password='" + Password + '\'' +
                 ", Altura='" + Altura + '\'' +
@@ -121,6 +123,16 @@ public class Usuario {
     public void setResultado(String resultado) {
         Resultado = resultado;
     }
+
+
+    public String getColorfav() {
+        return Colorfav;
+    }
+
+    public void setColorfav(String colorfav) {
+        Colorfav = colorfav;
+    }
+
 
     public int getId() {
         return id;

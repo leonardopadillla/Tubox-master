@@ -105,6 +105,18 @@
             app:strokeColor="@color/boton"
             android:textStyle="bold"
             tools:ignore="TextContrastCheck" />
+
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/recuperacionloginlbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsbold"
+        android:text="@string/recuperarlogin_lbl"
+        android:textAlignment="center"
+        android:textColor="@color/boton"
+        android:textSize="14sp"
+        android:clickable="true"/>
 
 </LinearLayout>

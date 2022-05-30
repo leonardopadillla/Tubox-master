@@ -3,7 +3,9 @@ package sv.edu.catolica.workin;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
+import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
+import android.util.Log;
 
 import java.util.ArrayList;
 
@@ -14,7 +16,7 @@ public class daoUsuario {
     ArrayList<Usuario> lista;
     SQLiteDatabase sql;
     String bd="BDUsuarios";
-    String tabla="create table if not exists usuariosdb(id integer primary key autoincrement, nombre text, personalizada text, pass text, altura text, peso text, edad text, resultado text, " +
+    String tabla="create table if not exists usuariosdb(id integer primary key autoincrement, nombre text, personalizada text, pass text, altura text, peso text, edad text, resultado text, colorfav text, " +
             "rutinaPecho integer, rutinaAbdomen integer, rutinaPiernas integer, rutinaBrazo integer, rutinaTodoCuerpo integer)";
 
     public daoUsuario(Context c) {
@@ -29,6 +31,7 @@ public class daoUsuario {
             ContentValues cv=new ContentValues();
             cv.put("nombre", u.getNombre());
             cv.put("personalizada", u.getPersonalizada());
+            cv.put("colorfav", u.getColorfav());
             cv.put("pass", u.getPassword());
             cv.put("altura", u.getAltura());
             cv.put("peso", u.getPeso());
@@ -39,6 +42,7 @@ public class daoUsuario {
             cv.put("rutinaPiernas", u.getRutinaPiernas());
             cv.put("rutinaBrazo", u.getRutinaBrazo());
             cv.put("rutinaTodoCuerpo", u.getRutinaTodoCuerpo());
+            Log.d("user", cv.toString());
             return (sql.insert("usuariosdb", null,cv)>0);
         }else{
             return false;
@@ -71,12 +75,15 @@ public class daoUsuario {
                 u.setPeso(cr.getString(5));
                 u.setEdad(cr.getString(6));
                 u.setResultado(cr.getString(7));
-                u.setRutinaPecho(cr.getInt(8));
-                u.setRutinaAbdomen(cr.getInt(9));
-                u.setRutinaPiernas(cr.getInt(10));
-                u.setRutinaBrazo(cr.getInt(11));
-                u.setRutinaTodoCuerpo(cr.getInt(12));
+                u.setColorfav(cr.getString(8));
+                u.setRutinaPecho(cr.getInt(9));
+                u.setRutinaAbdomen(cr.getInt(10));
+                u.setRutinaPiernas(cr.getInt(11));
+                u.setRutinaBrazo(cr.getInt(12));
+                u.setRutinaTodoCuerpo(cr.getInt(13));
 
+                //Log.d("crDaoColor", "Nombre:" + cr.getString(1) + "Color: " + cr.getString(8));
+                Log.d("crDao", DatabaseUtils.dumpCursorToString(cr));
                 lista.add(u);
             }while (cr.moveToNext());
         }
@@ -100,6 +107,15 @@ public class daoUsuario {
         lista = selectUsuarios();
         for (Usuario us:lista){
             if (us.getNombre().equals(u)&&us.getPassword().equals(p)){
+                return us;
+            }
+        }
+        return null;
+    }
+    public Usuario getUsuariorecover(String u){
+        lista = selectUsuarios();
+        for (Usuario us:lista){
+            if (us.getNombre().equals(u)){
                 return us;
             }
         }
@@ -130,6 +146,7 @@ public class daoUsuario {
          cv.put("rutinaPiernas", u.getRutinaPiernas());
          cv.put("rutinaBrazo", u.getRutinaBrazo());
          cv.put("rutinaTodoCuerpo", u.getRutinaTodoCuerpo());
+         cv.put("colorfav", u.getColorfav());
          return (sql.update("usuariosdb",cv,"id="+u.getId(),null)>0);
      }
 }

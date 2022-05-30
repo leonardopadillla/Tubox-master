@@ -2,6 +2,7 @@ package sv.edu.catolica.workin;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,6 +20,7 @@ public class Resgistrarse extends AppCompatActivity implements View.OnClickListe
     EditText pes;
     EditText edd;
     EditText cod;
+    EditText color;
     Button reg;
     daoUsuario dao;
     String codigofinalgym;
@@ -37,6 +39,7 @@ public class Resgistrarse extends AppCompatActivity implements View.OnClickListe
         pes=findViewById(R.id.etPeso);
         edd=findViewById(R.id.etEdad);
         cod=findViewById(R.id.codigogym);
+        color=findViewById(R.id.colorfavoritoet);
         reg.setOnClickListener(this);
 
 
@@ -59,6 +62,7 @@ public class Resgistrarse extends AppCompatActivity implements View.OnClickListe
                 u.setAltura(alt.getText().toString());
                 u.setPeso(pes.getText().toString());
                 u.setEdad(edd.getText().toString());
+                u.setColorfav(color.getText().toString());
                 u.setResultado("0");
                 u.setRutinaAbdomen(0);
                 u.setRutinaBrazo(0);
