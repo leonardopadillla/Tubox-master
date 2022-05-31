@@ -78,6 +78,9 @@
             android:name=".PiernasPrincipiante"
             android:exported="false" />
         <activity
+            android:name=".Wod5Avanzado"
+            android:exported="false" />
+        <activity
             android:name=".Cobra"
             android:exported="false" />
         <activity

@@ -146,4 +146,12 @@ public class Rutinas extends AppCompatActivity {
         cuerpoi.putExtra("id",u.getId());
         startActivity(cuerpoi);
     }
+    public void wod5avanzadorutina(View view)
+    {
+        Intent cuerpoa = new Intent(Rutinas.this,Wod5Avanzado.class);
+        cuerpoa.putExtra("id",u.getId());
+        startActivity(cuerpoa);
+    }
+
+
 }

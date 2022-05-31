@@ -79,7 +79,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
                 }
                 else {
-                    Toast.makeText(this, "Ingrese un usuario y despues clickee recuperar", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Ingrese un usuario y vuelva a cliquear aqui de nuevo", Toast.LENGTH_SHORT).show();
                 }
 
 

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgnegro"
+    android:padding="20dp"
+    tools:context=".TodoCuerpoIntermedio">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:paddingBottom="20dp"
+            android:text="@string/wod5_lbl_intermedio"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/boton"
+            android:textSize="24sp"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="163dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ejercicio1PecI"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginEnd="20dp"
+                android:contentDescription="@string/imagendeejercicio"
+                android:src="@drawable/plancha"></ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="79dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:paddingTop="5dp"
+                    android:text="@string/cleanandjerk95_75"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppinsbold"
+                    android:paddingTop="5dp"
+                    android:text="@string/repeticiones30"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"></TextView>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/infoEjer1PecI"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:background="@color/transparente"
+                android:contentDescription="@string/iconoayuda"
+                android:onClick="infoplancha"
+                android:src="@drawable/ic_info"
+                tools:ignore="DuplicateSpeakableTextCheck"></ImageButton>
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="concluirEntroAvanzado"
+            android:id="@+id/btnTCconcluirAvanzadooo"
+            android:text="@string/concluir_entrenamiento"
+            tools:ignore="OnClick">
+        </Button>
+
+    </LinearLayout>
+
+</ScrollView>

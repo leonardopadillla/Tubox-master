@@ -202,6 +202,15 @@
             android:onClick="cuerpoIntermedio"
             android:src="@drawable/intermedio"
             tools:ignore="SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/ibtnBrazosAvanzado"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/workout_description"
+            android:onClick="wod5avanzadorutina"
+            android:src="@drawable/avanzado"
+            tools:ignore="SpeakableTextPresentCheck" />
 
 
     </androidx.appcompat.widget.LinearLayoutCompat>

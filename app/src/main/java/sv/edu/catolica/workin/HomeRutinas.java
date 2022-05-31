@@ -69,7 +69,7 @@ public class HomeRutinas extends AppCompatActivity{
             dietaper.putExtra("id",u.getId());
             startActivity(dietaper);
         }
-        else if (ResultadoDieta > 2 &&  ResultadoDieta< 1599) {
+        else if (ResultadoDieta > 1500 &&  ResultadoDieta< 1599) {
             Intent dieta1500= new Intent(HomeRutinas.this,Dieta1500.class);
             startActivity(dieta1500);
         }
@@ -109,7 +109,7 @@ public class HomeRutinas extends AppCompatActivity{
             Intent dieta2400= new Intent(HomeRutinas.this,Dieta2400.class);
             startActivity(dieta2400);
         }
-        else if (ResultadoDieta > 2500) {
+        else if (ResultadoDieta > 2500 &&  ResultadoDieta< 2599) {
             Intent dieta2500= new Intent(HomeRutinas.this,Dieta2500.class);
             startActivity(dieta2500);
         }
